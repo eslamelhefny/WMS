@@ -41,7 +41,7 @@ STORE_PATH = DATA_DIR / "store.json"
 DB_PATH = DATA_DIR / "andalusia_work_management.db"
 EXCEL_PATH = DATA_DIR / "andalusia_task_data.xlsx"
 LOGO_PATH = STATIC_DIR / "logo.png"
-HOST = os.environ.get("ANDALUSIA_HOST", "127.0.0.1")
+HOST = "127.0.0.1"
 PORT = int(os.environ.get("ANDALUSIA_PORT", "8765"))
 
 PRIMARY = "C17A62"
