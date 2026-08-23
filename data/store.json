@@ -1,0 +1,6369 @@
+{
+  "version": 5,
+  "product": "Andalusia Academy Work Management System",
+  "user": {
+    "name": "eslam el hefny",
+    "email": "t-eslammohamed@andalusia.net",
+    "employeeId": "1111",
+    "department": "Academic Department",
+    "jobTitle": "",
+    "phone": "",
+    "position": "Academy Manager",
+    "additionalPositions": [],
+    "defaultView": "dashboard",
+    "theme": "terracotta",
+    "registeredAt": "2026-08-20T03:18:08.527Z"
+  },
+  "tasks": [
+    {
+      "id": 1787467963312,
+      "title": "Review complete launch plan and decide Go / No Go",
+      "project": "Academy Stage 2–8 Test Program",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Not Started",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-23",
+      "due": "2026-08-29",
+      "progress": 0,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Launch, Commercial, Operations & Finance",
+      "taskType": "Workflow",
+      "programId": "PRG-0001",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "assignmentId": "ASN-1787467929219-16ae",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 1787467851356,
+      "title": "Approve selected instructor fee",
+      "project": "Academy Stage 2–8 Test Program",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Completed",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-23",
+      "due": "2026-08-28",
+      "progress": 100,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Instructor Setup",
+      "taskType": "Workflow",
+      "programId": "PRG-0001",
+      "stage": "Instructor Setup",
+      "assignmentId": "ASN-1787467809029-22f0",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 2,
+      "title": "Update student attendance report",
+      "project": "Academic",
+      "category": "Program Tracking & Monitoring",
+      "priority": "Medium",
+      "status": "Completed",
+      "impact": "Medium",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "Completed",
+      "actionStatus": "Done",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-02",
+      "due": "2026-08-03",
+      "progress": 100,
+      "est": 4.0,
+      "actual": 4.0,
+      "day": "Monday",
+      "recurrence": "Weekly",
+      "link": "",
+      "notes": "Validate late submissions.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 1,
+      "title": "Prepare weekly lesson plan",
+      "project": "Academic",
+      "category": "Curriculum Design",
+      "priority": "High",
+      "status": "In Progress",
+      "impact": "High",
+      "blockerStatus": "",
+      "deliverableType": "Course Outline",
+      "deliveryStatus": "Running",
+      "actionStatus": "In Progress",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-02",
+      "due": "2026-08-06",
+      "progress": 75.0,
+      "est": 8.0,
+      "actual": 6.0,
+      "day": "Thursday",
+      "recurrence": "Weekly",
+      "link": "",
+      "notes": "Coordinate subject plans.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 4,
+      "title": "Review IT support tickets",
+      "project": "IT",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Not Started",
+      "impact": "High",
+      "blockerStatus": "Open",
+      "deliverableType": "Report",
+      "deliveryStatus": "Not Started",
+      "actionStatus": "Open",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-05",
+      "due": "2026-08-06",
+      "progress": 20.0,
+      "est": 6.0,
+      "actual": 1.0,
+      "day": "Thursday",
+      "recurrence": "Daily",
+      "link": "",
+      "notes": "Prioritize classroom issues.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 5,
+      "title": "Facilities inspection",
+      "project": "Operations",
+      "category": "Review & Quality Check",
+      "priority": "Medium",
+      "status": "Not Started",
+      "impact": "Medium",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "Not Started",
+      "actionStatus": "Open",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-06",
+      "due": "2026-08-10",
+      "progress": 0,
+      "est": 5.0,
+      "actual": 0.0,
+      "day": "Monday",
+      "recurrence": "Monthly",
+      "link": "",
+      "notes": "Inspect safety and maintenance.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 3,
+      "title": "Design social media campaign",
+      "project": "Marketing",
+      "category": "Slide & Material Production",
+      "priority": "High",
+      "status": "In Progress",
+      "impact": "High",
+      "blockerStatus": "",
+      "deliverableType": "Slide Deck",
+      "deliveryStatus": "Running",
+      "actionStatus": "In Progress",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-04",
+      "due": "2026-08-12",
+      "progress": 45.0,
+      "est": 12.0,
+      "actual": 5.0,
+      "day": "Wednesday",
+      "recurrence": "Monthly",
+      "link": "",
+      "notes": "Back-to-school campaign.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 26082002,
+      "title": "Completed test task",
+      "project": "Administration",
+      "category": "Administration",
+      "priority": "Low",
+      "status": "Completed",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-18",
+      "due": "2026-08-19",
+      "progress": 100,
+      "est": 2.0,
+      "actual": 2.0,
+      "day": "Wednesday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 26082004,
+      "title": "Overdue follow-up test",
+      "project": "Operations",
+      "category": "Meetings & Coordination",
+      "priority": "High",
+      "status": "In Progress",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-15",
+      "due": "2026-08-19",
+      "progress": 65.0,
+      "est": 4.0,
+      "actual": 3.0,
+      "day": "Wednesday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 7,
+      "title": "Parent communication newsletter",
+      "project": "Marketing",
+      "category": "Meetings with Client / Partner",
+      "priority": "Medium",
+      "status": "On Hold",
+      "impact": "Medium",
+      "blockerStatus": "Open",
+      "deliverableType": "Proposal",
+      "deliveryStatus": "On Hold",
+      "actionStatus": "Open",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-01",
+      "due": "2026-08-20",
+      "progress": 30.0,
+      "est": 10.0,
+      "actual": 3.0,
+      "day": "Thursday",
+      "recurrence": "Monthly",
+      "link": "",
+      "notes": "Awaiting final announcements.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 26082001,
+      "title": "Today priority review",
+      "project": "Academic",
+      "category": "Review & Quality Check",
+      "priority": "High",
+      "status": "In Progress",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-20",
+      "due": "2026-08-20",
+      "progress": 40.0,
+      "est": 3.0,
+      "actual": 1.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 26082005,
+      "title": "Weekly planning test",
+      "project": "Academic",
+      "category": "Program Tracking & Monitoring",
+      "priority": "Medium",
+      "status": "In Progress",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Course Outline",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-16",
+      "due": "2026-08-20",
+      "progress": 55.0,
+      "est": 8.0,
+      "actual": 4.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 1787196338731,
+      "title": "Review readiness and record delivery decision",
+      "project": "Academy Late-Stage Lifecycle Test",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Not Started",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-20",
+      "due": "2026-08-20",
+      "progress": 0,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Readiness, Delivery & Assessment",
+      "taskType": "Workflow",
+      "programId": "PRG-0006",
+      "stage": "Readiness, Delivery & Assessment",
+      "assignmentId": "ASN-1787196317449-8ae6",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 26082003,
+      "title": "Tomorrow content task",
+      "project": "Marketing",
+      "category": "Content Development",
+      "priority": "Medium",
+      "status": "Not Started",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Web Page",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-20",
+      "due": "2026-08-21",
+      "progress": 0,
+      "est": 5.0,
+      "actual": 0.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 1787196378489,
+      "title": "Complete and submit program request",
+      "project": "Clinical Leadership Certificate",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Completed",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-20",
+      "due": "2026-08-21",
+      "progress": 100,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Request & Greenlight",
+      "taskType": "Workflow",
+      "programId": "PRG-0007",
+      "stage": "Request & Greenlight",
+      "assignmentId": "ASN-1787196318723-3c70",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 1787466750952,
+      "title": "Review readiness and record delivery decision",
+      "project": "Academy Late-Stage Lifecycle Test",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Not Started",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-23",
+      "due": "2026-08-23",
+      "progress": 0,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Sunday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Readiness, Delivery & Assessment",
+      "taskType": "Workflow",
+      "programId": "PRG-0010",
+      "stage": "Readiness, Delivery & Assessment",
+      "assignmentId": "ASN-1787466679470-b7a7",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 1787466916258,
+      "title": "Review and decide Program Greenlight",
+      "project": "Clinical Leadership Certificate",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Completed",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-23",
+      "due": "2026-08-23",
+      "progress": 100,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Sunday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Request & Greenlight",
+      "taskType": "Workflow",
+      "programId": "PRG-0011",
+      "stage": "Request & Greenlight",
+      "assignmentId": "ASN-1787466868264-ffc9",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 1787466709382,
+      "title": "Complete and submit program request",
+      "project": "Clinical Leadership Certificate",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Completed",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-23",
+      "due": "2026-08-24",
+      "progress": 100,
+      "est": 2.0,
+      "actual": 0.0,
+      "day": "Monday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Workflow assignment · Request & Greenlight",
+      "taskType": "Workflow",
+      "programId": "PRG-0011",
+      "stage": "Request & Greenlight",
+      "assignmentId": "ASN-1787466680151-a55a",
+      "positionContext": "Academy Manager"
+    },
+    {
+      "id": 26082007,
+      "title": "On-hold coordination test",
+      "project": "IT",
+      "category": "Meetings with Client / Partner",
+      "priority": "Medium",
+      "status": "On Hold",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Proposal",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-20",
+      "due": "2026-08-27",
+      "progress": 25.0,
+      "est": 6.0,
+      "actual": 1.0,
+      "day": "Thursday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 6,
+      "title": "Quarterly academic performance review",
+      "project": "Academic",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "In Progress",
+      "impact": "High",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "Running",
+      "actionStatus": "In Progress",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-07-15",
+      "due": "2026-09-15",
+      "progress": 60.0,
+      "est": 30.0,
+      "actual": 18.0,
+      "day": "Tuesday",
+      "recurrence": "Quarterly",
+      "link": "",
+      "notes": "Review academic KPIs.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    },
+    {
+      "id": 26082006,
+      "title": "Quarterly reporting test",
+      "project": "Strategic",
+      "category": "Program Tracking & Monitoring",
+      "priority": "High",
+      "status": "Not Started",
+      "impact": "",
+      "blockerStatus": "",
+      "deliverableType": "Report",
+      "deliveryStatus": "",
+      "actionStatus": "",
+      "notificationStatus": "Not Scheduled",
+      "start": "2026-08-05",
+      "due": "2026-10-04",
+      "progress": 15.0,
+      "est": 20.0,
+      "actual": 2.0,
+      "day": "Sunday",
+      "recurrence": "None",
+      "link": "",
+      "notes": "Automatically generated test task.",
+      "taskType": "Manual",
+      "programId": "",
+      "stage": "",
+      "assignmentId": "",
+      "positionContext": ""
+    }
+  ],
+  "programs": [
+    {
+      "id": "PRG-0001",
+      "name": "Academy Stage 2–8 Test Program",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-09",
+      "endDate": "2026-10-06",
+      "expectedCount": 40,
+      "preliminaryBudget": 360000,
+      "objective": "Test every detailed workflow stage from Curriculum through Final Closure.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:18:25.028Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Locked",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": ",m m",
+        "topic": "jmjm",
+        "competences": "mijmimi",
+        "duration": "ijmijm",
+        "learningOutcomes": "mjiunn",
+        "structure": "imuimu",
+        "assessment": "inun",
+        "draftFile": "8uyny8",
+        "qaChecks": {
+          "details": true,
+          "outcomes": true,
+          "structure": true,
+          "assessment": true
+        },
+        "qaPassed": true,
+        "version": "1.0",
+        "locked": true,
+        "releasedAt": "2026-08-23T06:50:09.029Z"
+      },
+      "instructorSetup": {
+        "status": "Completed",
+        "shortlist": [
+          "Dr. Mona Adel"
+        ],
+        "evaluated": [
+          "Dr. Mona Adel"
+        ],
+        "selected": [
+          "Dr. Mona Adel"
+        ],
+        "ratePerHour": "10",
+        "projectBased": "Yes",
+        "workSchedule": "Part Time",
+        "level": "sfdgs",
+        "assignedGroups": "sdfgsf",
+        "instructorSource": "Internal",
+        "agreedFee": 11,
+        "feeApproved": true,
+        "contractSigned": true,
+        "contractReference": "vsdxczas",
+        "onboardingComplete": true,
+        "onboardingReference": "serfd",
+        "comment": "ffhh"
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Academy Stage 2–8 Test Program",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-09",
+        "status": "Draft",
+        "managerDecision": "Pending",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Break-even"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Not Started"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-09",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-10",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-11",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Active",
+          "progress": 0
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": ""
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "venue": "",
+          "materials": "",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 0,
+          "attendeeList": ""
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "sponsor": "",
+          "amount": 0
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787467929219-66bb",
+          "programId": "PRG-0001",
+          "at": "2026-08-23T06:52:09.219Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Academy Manager completed Instructor Setup; Launch, Commercial, Operations & Finance activated"
+        },
+        {
+          "id": "AUD-1787467929203-17be",
+          "programId": "PRG-0001",
+          "at": "2026-08-23T06:52:09.203Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Instructor Setup record updated"
+        },
+        {
+          "id": "AUD-1787467917380-8d22",
+          "programId": "PRG-0001",
+          "at": "2026-08-23T06:51:57.380Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Instructor Setup record updated"
+        },
+        {
+          "id": "AUD-1787467809029-fc1e",
+          "programId": "PRG-0001",
+          "at": "2026-08-23T06:50:09.029Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Academy Manager completed Curriculum; Instructor Setup activated"
+        },
+        {
+          "id": "AUD-1787467794160-c735",
+          "programId": "PRG-0001",
+          "at": "2026-08-23T06:49:54.160Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Curriculum QA completed"
+        },
+        {
+          "id": "AUD-1787467794143-f711",
+          "programId": "PRG-0001",
+          "at": "2026-08-23T06:49:54.143Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Curriculum draft saved"
+        },
+        {
+          "id": "AUD-1787195905031-73bb",
+          "programId": "PRG-0001",
+          "at": "2026-08-20T03:18:25.031Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Stage 2–8 test program prepared after approved Greenlight"
+        },
+        {
+          "id": "AUD-1787195905029-5430",
+          "programId": "PRG-0001",
+          "at": "2026-08-20T03:18:25.029Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0002",
+      "name": "Academy Workflow Test Program",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-13",
+      "endDate": "2026-10-08",
+      "expectedCount": 40,
+      "preliminaryBudget": 350000,
+      "objective": "Test the combined Position → Assignment → Task → Program workflow.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Completed",
+        "shortlist": [
+          "Dr. Mona Adel"
+        ],
+        "evaluated": [
+          "Dr. Mona Adel"
+        ],
+        "selected": [
+          "Dr. Mona Adel"
+        ],
+        "ratePerHour": "850",
+        "projectBased": "Yes",
+        "workSchedule": "Part Time",
+        "level": "Senior",
+        "assignedGroups": "Group A, Group B",
+        "instructorSource": "External",
+        "agreedFee": 28000,
+        "feeApproved": true,
+        "contractSigned": true,
+        "contractReference": "signed_instructor_contract.pdf",
+        "onboardingComplete": true,
+        "onboardingReference": "instructor_onboarding.pdf",
+        "comment": "Ready"
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Academy Workflow Test Program",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-13",
+        "status": "Go",
+        "managerDecision": "Go",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Completed"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-13",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-14",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-15",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Active",
+          "progress": 60
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "In Progress",
+          "progress": 70,
+          "comment": "Final agenda pending.",
+          "instructorType": "External",
+          "fee": 28000,
+          "agenda": "",
+          "visits": [
+            {
+              "id": "TV-I1",
+              "target": "Dr. Mona Adel",
+              "date": "2026-08-20",
+              "type": "Online Meeting",
+              "objective": "Confirm availability",
+              "outcome": "Available; final agenda requested.",
+              "followUp": "2026-08-21",
+              "followUpCompleted": false,
+              "evidence": "meeting_notes.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "In Progress",
+          "progress": 45,
+          "comment": "Venue provisionally reserved.",
+          "venue": "Andalusia Academy Hall",
+          "materials": "Projector and AV",
+          "budget": 65000,
+          "visits": [
+            {
+              "id": "TV-L1",
+              "target": "Andalusia Academy Hall",
+              "date": "2026-08-20",
+              "type": "Physical Location",
+              "objective": "Check venue readiness",
+              "outcome": "Venue available.",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "In Progress",
+          "progress": 35,
+          "comment": "Nominations being collected.",
+          "attendeeType": "B2B",
+          "subtype": "Corporate-Sponsored Employees",
+          "fee": 3500,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 45,
+          "attendeeList": "expected_attendees.xlsx",
+          "visits": [
+            {
+              "id": "TV-A1",
+              "target": "Corporate Account",
+              "date": "2026-08-20",
+              "type": "Phone Call",
+              "objective": "Confirm nominations",
+              "outcome": "Second list expected.",
+              "followUp": "2026-08-22",
+              "followUpCompleted": false,
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 10,
+          "comment": "",
+          "sponsor": "",
+          "amount": 0,
+          "visits": []
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787195905770-55a0",
+          "programId": "PRG-0002",
+          "at": "2026-08-20T03:18:25.770Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Workflow test program advanced to Operational Activities"
+        },
+        {
+          "id": "AUD-1787195905770-079c",
+          "programId": "PRG-0002",
+          "at": "2026-08-20T03:18:25.770Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0003",
+      "name": "Clinical Leadership Certificate",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-18",
+      "endDate": "2026-10-16",
+      "expectedCount": 45,
+      "preliminaryBudget": 420000,
+      "objective": "Deliver an outcome-focused Academy certificate program.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:18:29.520Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Not Started",
+        "shortlist": [],
+        "evaluated": [],
+        "selected": [],
+        "ratePerHour": "",
+        "projectBased": "",
+        "workSchedule": "",
+        "level": "",
+        "assignedGroups": "",
+        "instructorSource": "",
+        "agreedFee": 0,
+        "feeApproved": false,
+        "contractSigned": false,
+        "contractReference": "",
+        "onboardingComplete": false,
+        "onboardingReference": "",
+        "comment": ""
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Clinical Leadership Certificate",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-18",
+        "status": "Draft",
+        "managerDecision": "Pending",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Not Started"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-18",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-19",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-20",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Active",
+          "progress": 0
+        },
+        {
+          "name": "Curriculum",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": ""
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "venue": "",
+          "materials": "",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 0,
+          "attendeeList": ""
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "sponsor": "",
+          "amount": 0
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787195909520-6a4e",
+          "programId": "PRG-0003",
+          "at": "2026-08-20T03:18:29.520Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0004",
+      "name": "Academy Workflow Test Program",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-13",
+      "endDate": "2026-10-08",
+      "expectedCount": 40,
+      "preliminaryBudget": 350000,
+      "objective": "Test the combined Position → Assignment → Task → Program workflow.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Completed",
+        "shortlist": [
+          "Dr. Mona Adel"
+        ],
+        "evaluated": [
+          "Dr. Mona Adel"
+        ],
+        "selected": [
+          "Dr. Mona Adel"
+        ],
+        "ratePerHour": "850",
+        "projectBased": "Yes",
+        "workSchedule": "Part Time",
+        "level": "Senior",
+        "assignedGroups": "Group A, Group B",
+        "instructorSource": "External",
+        "agreedFee": 28000,
+        "feeApproved": true,
+        "contractSigned": true,
+        "contractReference": "signed_instructor_contract.pdf",
+        "onboardingComplete": true,
+        "onboardingReference": "instructor_onboarding.pdf",
+        "comment": "Ready"
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Academy Workflow Test Program",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-13",
+        "status": "Go",
+        "managerDecision": "Go",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Completed"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-13",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-14",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-15",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Active",
+          "progress": 60
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "In Progress",
+          "progress": 70,
+          "comment": "Final agenda pending.",
+          "instructorType": "External",
+          "fee": 28000,
+          "agenda": "",
+          "visits": [
+            {
+              "id": "TV-I1",
+              "target": "Dr. Mona Adel",
+              "date": "2026-08-20",
+              "type": "Online Meeting",
+              "objective": "Confirm availability",
+              "outcome": "Available; final agenda requested.",
+              "followUp": "2026-08-21",
+              "followUpCompleted": false,
+              "evidence": "meeting_notes.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "In Progress",
+          "progress": 45,
+          "comment": "Venue provisionally reserved.",
+          "venue": "Andalusia Academy Hall",
+          "materials": "Projector and AV",
+          "budget": 65000,
+          "visits": [
+            {
+              "id": "TV-L1",
+              "target": "Andalusia Academy Hall",
+              "date": "2026-08-20",
+              "type": "Physical Location",
+              "objective": "Check venue readiness",
+              "outcome": "Venue available.",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "In Progress",
+          "progress": 35,
+          "comment": "Nominations being collected.",
+          "attendeeType": "B2B",
+          "subtype": "Corporate-Sponsored Employees",
+          "fee": 3500,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 45,
+          "attendeeList": "expected_attendees.xlsx",
+          "visits": [
+            {
+              "id": "TV-A1",
+              "target": "Corporate Account",
+              "date": "2026-08-20",
+              "type": "Phone Call",
+              "objective": "Confirm nominations",
+              "outcome": "Second list expected.",
+              "followUp": "2026-08-22",
+              "followUpCompleted": false,
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 10,
+          "comment": "",
+          "sponsor": "",
+          "amount": 0,
+          "visits": []
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787196316151-1564",
+          "programId": "PRG-0004",
+          "at": "2026-08-20T03:25:16.151Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Workflow test program advanced to Operational Activities"
+        },
+        {
+          "id": "AUD-1787196316151-d26b",
+          "programId": "PRG-0004",
+          "at": "2026-08-20T03:25:16.151Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0005",
+      "name": "Academy Stage 2–8 Test Program",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-09",
+      "endDate": "2026-10-06",
+      "expectedCount": 40,
+      "preliminaryBudget": 360000,
+      "objective": "Test every detailed workflow stage from Curriculum through Final Closure.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:25:16.616Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Not Started",
+        "shortlist": [],
+        "evaluated": [],
+        "selected": [],
+        "ratePerHour": "",
+        "projectBased": "",
+        "workSchedule": "",
+        "level": "",
+        "assignedGroups": "",
+        "instructorSource": "",
+        "agreedFee": 0,
+        "feeApproved": false,
+        "contractSigned": false,
+        "contractReference": "",
+        "onboardingComplete": false,
+        "onboardingReference": "",
+        "comment": ""
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Academy Stage 2–8 Test Program",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-09",
+        "status": "Draft",
+        "managerDecision": "Pending",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Not Started"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-09",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-10",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-11",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Active",
+          "progress": 0
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": ""
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "venue": "",
+          "materials": "",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 0,
+          "attendeeList": ""
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "sponsor": "",
+          "amount": 0
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787196316616-3132",
+          "programId": "PRG-0005",
+          "at": "2026-08-20T03:25:16.616Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Stage 2–8 test program prepared after approved Greenlight"
+        },
+        {
+          "id": "AUD-1787196316616-3b52",
+          "programId": "PRG-0005",
+          "at": "2026-08-20T03:25:16.616Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0006",
+      "name": "Academy Late-Stage Lifecycle Test",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-18",
+      "expectedCount": 40,
+      "preliminaryBudget": 350000,
+      "objective": "Test Readiness through Final Closure in Prototype V5.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:25:17.449Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Completed",
+        "shortlist": [
+          "Dr. Mona Adel"
+        ],
+        "evaluated": [
+          "Dr. Mona Adel"
+        ],
+        "selected": [
+          "Dr. Mona Adel"
+        ],
+        "ratePerHour": "850",
+        "projectBased": "Yes",
+        "workSchedule": "Part Time",
+        "level": "Senior",
+        "assignedGroups": "Group A, Group B",
+        "instructorSource": "External",
+        "agreedFee": 28000,
+        "feeApproved": true,
+        "contractSigned": true,
+        "contractReference": "signed_instructor_contract.pdf",
+        "onboardingComplete": true,
+        "onboardingReference": "instructor_onboarding.pdf",
+        "comment": "Ready"
+      },
+      "launch": {
+        "price": 3500,
+        "capacity": 45,
+        "budget": 350000,
+        "expectedRevenue": 500000,
+        "scheduleConfirmed": true,
+        "marketingBrief": "launch_brief.pdf",
+        "studioRequested": true,
+        "studioStatus": "Ready",
+        "managerDecision": "Go",
+        "status": "Go",
+        "comment": "Ready",
+        "marginStatus": "Pending",
+        "month": "2026-08",
+        "workshop": "Academy Late-Stage Lifecycle Test",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "launchDate": "2026-08-01",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Completed",
+          "fee": 3500,
+          "paymentMethod": "Online Payment",
+          "leads": 70,
+          "registered": 40,
+          "paid": 40,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Won",
+          "account": "Partner Organization",
+          "stage": "Won",
+          "proposal": "proposal.pdf",
+          "contract": "contract.pdf",
+          "value": 180000,
+          "participants": 15
+        },
+        "status": "Completed"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": true,
+          "instructorContract": true,
+          "venue": true,
+          "materials": true,
+          "attendeesCommunicated": true,
+          "sponsorConfirmed": true,
+          "financeClearance": true,
+          "avTest": true
+        },
+        "decision": "Pending",
+        "comment": "All readiness controls prepared for manager decision.",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-08-01",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-08-02",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-08-03",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Closed",
+        "actualRevenue": 500000,
+        "actualCost": 350000,
+        "sponsorshipCollected": 75000,
+        "instructorPaid": true,
+        "vendorPaid": true,
+        "paymentProof": "payment_evidence.pdf",
+        "pnlClosed": true,
+        "comment": "Finance completed in Section 4D."
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Active",
+          "progress": 30
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Instructors",
+              "target": "Completed test interaction",
+              "date": "2026-08-20",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": "final_agenda.pdf"
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Logistics & Place",
+              "target": "Completed test interaction",
+              "date": "2026-08-20",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "venue": "Andalusia Academy Hall",
+          "materials": "Projector and AV",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Attendees",
+              "target": "Completed test interaction",
+              "date": "2026-08-20",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 40,
+          "attendeeList": "attendees.xlsx"
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Sponsorships",
+              "target": "Completed test interaction",
+              "date": "2026-08-20",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "sponsor": "MedTech Partner",
+          "amount": 75000
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787196317449-11ee",
+          "programId": "PRG-0006",
+          "at": "2026-08-20T03:25:17.449Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Late-stage test program prepared at Readiness"
+        },
+        {
+          "id": "AUD-1787196317449-8d81",
+          "programId": "PRG-0006",
+          "at": "2026-08-20T03:25:17.449Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Approved"
+      }
+    },
+    {
+      "id": "PRG-0007",
+      "name": "Clinical Leadership Certificate",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-18",
+      "endDate": "2026-10-16",
+      "expectedCount": 45,
+      "preliminaryBudget": 420000,
+      "objective": "Deliver an outcome-focused Academy certificate program.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-20T03:25:18.723Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Not Started",
+        "shortlist": [],
+        "evaluated": [],
+        "selected": [],
+        "ratePerHour": "",
+        "projectBased": "",
+        "workSchedule": "",
+        "level": "",
+        "assignedGroups": "",
+        "instructorSource": "",
+        "agreedFee": 0,
+        "feeApproved": false,
+        "contractSigned": false,
+        "contractReference": "",
+        "onboardingComplete": false,
+        "onboardingReference": "",
+        "comment": ""
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Clinical Leadership Certificate",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-18",
+        "status": "Draft",
+        "managerDecision": "Pending",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Not Started"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-18",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-19",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-20",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Active",
+          "progress": 0
+        },
+        {
+          "name": "Curriculum",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": ""
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "venue": "",
+          "materials": "",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 0,
+          "attendeeList": ""
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "sponsor": "",
+          "amount": 0
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787196375499-033d",
+          "programId": "PRG-0007",
+          "at": "2026-08-20T03:26:15.499Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Complete and submit program request completed"
+        },
+        {
+          "id": "AUD-1787196318723-3c80",
+          "programId": "PRG-0007",
+          "at": "2026-08-20T03:25:18.723Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0008",
+      "name": "Academy Stage 2–8 Test Program",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-12",
+      "endDate": "2026-10-09",
+      "expectedCount": 40,
+      "preliminaryBudget": 360000,
+      "objective": "Test every detailed workflow stage from Curriculum through Final Closure.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-23T06:31:18.398Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Not Started",
+        "shortlist": [],
+        "evaluated": [],
+        "selected": [],
+        "ratePerHour": "",
+        "projectBased": "",
+        "workSchedule": "",
+        "level": "",
+        "assignedGroups": "",
+        "instructorSource": "",
+        "agreedFee": 0,
+        "feeApproved": false,
+        "contractSigned": false,
+        "contractReference": "",
+        "onboardingComplete": false,
+        "onboardingReference": "",
+        "comment": ""
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Academy Stage 2–8 Test Program",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-12",
+        "status": "Draft",
+        "managerDecision": "Pending",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Not Started"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-12",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-13",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-14",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Active",
+          "progress": 0
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": ""
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "venue": "",
+          "materials": "",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 0,
+          "attendeeList": ""
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "sponsor": "",
+          "amount": 0
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787466678399-4648",
+          "programId": "PRG-0008",
+          "at": "2026-08-23T06:31:18.399Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Stage 2–8 test program prepared after approved Greenlight"
+        },
+        {
+          "id": "AUD-1787466678399-9af1",
+          "programId": "PRG-0008",
+          "at": "2026-08-23T06:31:18.399Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0009",
+      "name": "Academy Workflow Test Program",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-16",
+      "endDate": "2026-10-11",
+      "expectedCount": 40,
+      "preliminaryBudget": 350000,
+      "objective": "Test the combined Position → Assignment → Task → Program workflow.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-23T06:31:18.764Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Completed",
+        "shortlist": [
+          "Dr. Mona Adel"
+        ],
+        "evaluated": [
+          "Dr. Mona Adel"
+        ],
+        "selected": [
+          "Dr. Mona Adel"
+        ],
+        "ratePerHour": "850",
+        "projectBased": "Yes",
+        "workSchedule": "Part Time",
+        "level": "Senior",
+        "assignedGroups": "Group A, Group B",
+        "instructorSource": "External",
+        "agreedFee": 28000,
+        "feeApproved": true,
+        "contractSigned": true,
+        "contractReference": "signed_instructor_contract.pdf",
+        "onboardingComplete": true,
+        "onboardingReference": "instructor_onboarding.pdf",
+        "comment": "Ready"
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Academy Workflow Test Program",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-16",
+        "status": "Go",
+        "managerDecision": "Go",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Completed"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-16",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-17",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-18",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Active",
+          "progress": 60
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "In Progress",
+          "progress": 70,
+          "comment": "Final agenda pending.",
+          "instructorType": "External",
+          "fee": 28000,
+          "agenda": "",
+          "visits": [
+            {
+              "id": "TV-I1",
+              "target": "Dr. Mona Adel",
+              "date": "2026-08-23",
+              "type": "Online Meeting",
+              "objective": "Confirm availability",
+              "outcome": "Available; final agenda requested.",
+              "followUp": "2026-08-24",
+              "followUpCompleted": false,
+              "evidence": "meeting_notes.pdf"
+            }
+          ]
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "In Progress",
+          "progress": 45,
+          "comment": "Venue provisionally reserved.",
+          "venue": "Andalusia Academy Hall",
+          "materials": "Projector and AV",
+          "budget": 65000,
+          "visits": [
+            {
+              "id": "TV-L1",
+              "target": "Andalusia Academy Hall",
+              "date": "2026-08-23",
+              "type": "Physical Location",
+              "objective": "Check venue readiness",
+              "outcome": "Venue available.",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "In Progress",
+          "progress": 35,
+          "comment": "Nominations being collected.",
+          "attendeeType": "B2B",
+          "subtype": "Corporate-Sponsored Employees",
+          "fee": 3500,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 45,
+          "attendeeList": "expected_attendees.xlsx",
+          "visits": [
+            {
+              "id": "TV-A1",
+              "target": "Corporate Account",
+              "date": "2026-08-23",
+              "type": "Phone Call",
+              "objective": "Confirm nominations",
+              "outcome": "Second list expected.",
+              "followUp": "2026-08-25",
+              "followUpCompleted": false,
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 10,
+          "comment": "",
+          "sponsor": "",
+          "amount": 0,
+          "visits": []
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787466678765-0098",
+          "programId": "PRG-0009",
+          "at": "2026-08-23T06:31:18.765Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Workflow test program advanced to Operational Activities"
+        },
+        {
+          "id": "AUD-1787466678764-1296",
+          "programId": "PRG-0009",
+          "at": "2026-08-23T06:31:18.764Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    },
+    {
+      "id": "PRG-0010",
+      "name": "Academy Late-Stage Lifecycle Test",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-08-04",
+      "endDate": "2026-08-21",
+      "expectedCount": 40,
+      "preliminaryBudget": 350000,
+      "objective": "Test Readiness through Final Closure in Prototype V5.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-23T06:31:19.470Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": ""
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Completed",
+        "shortlist": [
+          "Dr. Mona Adel"
+        ],
+        "evaluated": [
+          "Dr. Mona Adel"
+        ],
+        "selected": [
+          "Dr. Mona Adel"
+        ],
+        "ratePerHour": "850",
+        "projectBased": "Yes",
+        "workSchedule": "Part Time",
+        "level": "Senior",
+        "assignedGroups": "Group A, Group B",
+        "instructorSource": "External",
+        "agreedFee": 28000,
+        "feeApproved": true,
+        "contractSigned": true,
+        "contractReference": "signed_instructor_contract.pdf",
+        "onboardingComplete": true,
+        "onboardingReference": "instructor_onboarding.pdf",
+        "comment": "Ready"
+      },
+      "launch": {
+        "price": 3500,
+        "capacity": 45,
+        "budget": 350000,
+        "expectedRevenue": 500000,
+        "scheduleConfirmed": true,
+        "marketingBrief": "launch_brief.pdf",
+        "studioRequested": true,
+        "studioStatus": "Ready",
+        "managerDecision": "Go",
+        "status": "Go",
+        "comment": "Ready",
+        "marginStatus": "Pending",
+        "month": "2026-08",
+        "workshop": "Academy Late-Stage Lifecycle Test",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "launchDate": "2026-08-04",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Completed",
+          "fee": 3500,
+          "paymentMethod": "Online Payment",
+          "leads": 70,
+          "registered": 40,
+          "paid": 40,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Won",
+          "account": "Partner Organization",
+          "stage": "Won",
+          "proposal": "proposal.pdf",
+          "contract": "contract.pdf",
+          "value": 180000,
+          "participants": 15
+        },
+        "status": "Completed"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": true,
+          "instructorContract": true,
+          "venue": true,
+          "materials": true,
+          "attendeesCommunicated": true,
+          "sponsorConfirmed": true,
+          "financeClearance": true,
+          "avTest": true
+        },
+        "decision": "Pending",
+        "comment": "All readiness controls prepared for manager decision.",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-08-04",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-08-05",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-08-06",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Closed",
+        "actualRevenue": 500000,
+        "actualCost": 350000,
+        "sponsorshipCollected": 75000,
+        "instructorPaid": true,
+        "vendorPaid": true,
+        "paymentProof": "payment_evidence.pdf",
+        "pnlClosed": true,
+        "comment": "Finance completed in Section 4D."
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Active",
+          "progress": 30
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Instructors",
+              "target": "Completed test interaction",
+              "date": "2026-08-23",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": "final_agenda.pdf"
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Logistics & Place",
+              "target": "Completed test interaction",
+              "date": "2026-08-23",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "venue": "Andalusia Academy Hall",
+          "materials": "Projector and AV",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Attendees",
+              "target": "Completed test interaction",
+              "date": "2026-08-23",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 40,
+          "attendeeList": "attendees.xlsx"
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Completed",
+          "progress": 100,
+          "comment": "",
+          "visits": [
+            {
+              "id": "LT-Sponsorships",
+              "target": "Completed test interaction",
+              "date": "2026-08-23",
+              "type": "Online Meeting",
+              "objective": "Test completed activity",
+              "outcome": "Completed",
+              "followUp": "",
+              "followUpCompleted": true,
+              "evidence": "test_evidence.pdf"
+            }
+          ],
+          "sponsor": "MedTech Partner",
+          "amount": 75000
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787466679470-1af9",
+          "programId": "PRG-0010",
+          "at": "2026-08-23T06:31:19.470Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Late-stage test program prepared at Readiness"
+        },
+        {
+          "id": "AUD-1787466679470-bb7f",
+          "programId": "PRG-0010",
+          "at": "2026-08-23T06:31:19.470Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Approved"
+      }
+    },
+    {
+      "id": "PRG-0011",
+      "name": "Clinical Leadership Certificate",
+      "type": "Certificate Program",
+      "route": "Mixed",
+      "specialty": "Clinical Leadership",
+      "region": "Egypt",
+      "startDate": "2026-09-21",
+      "endDate": "2026-10-19",
+      "expectedCount": 45,
+      "preliminaryBudget": 420000,
+      "objective": "Deliver an outcome-focused Academy certificate program.",
+      "owner": "eslam el hefny",
+      "ownerPosition": "Academy Manager",
+      "createdAt": "2026-08-23T06:31:20.151Z",
+      "request": {
+        "priority": "Medium",
+        "demandEvidence": "m,lm;klm",
+        "submissionErrors": []
+      },
+      "curriculum": {
+        "status": "Not Started",
+        "owner": "Academy Curriculum Development Manager",
+        "outline": "",
+        "topic": "",
+        "competences": "",
+        "duration": "",
+        "learningOutcomes": "",
+        "structure": "",
+        "assessment": "",
+        "draftFile": "",
+        "qaChecks": {
+          "details": false,
+          "outcomes": false,
+          "structure": false,
+          "assessment": false
+        },
+        "qaPassed": false,
+        "version": "1.0",
+        "locked": false,
+        "releasedAt": ""
+      },
+      "instructorSetup": {
+        "status": "Not Started",
+        "shortlist": [],
+        "evaluated": [],
+        "selected": [],
+        "ratePerHour": "",
+        "projectBased": "",
+        "workSchedule": "",
+        "level": "",
+        "assignedGroups": "",
+        "instructorSource": "",
+        "agreedFee": 0,
+        "feeApproved": false,
+        "contractSigned": false,
+        "contractReference": "",
+        "onboardingComplete": false,
+        "onboardingReference": "",
+        "comment": ""
+      },
+      "launch": {
+        "month": "2026-09",
+        "workshop": "Clinical Leadership Certificate",
+        "specialty": "Clinical Leadership",
+        "level": "",
+        "targetAudience": "",
+        "duration": "",
+        "teachingMethod": "",
+        "handsOn": "",
+        "instructorShooting": "Not Required",
+        "supplementChange": "",
+        "price": 0,
+        "launchDate": "2026-09-21",
+        "status": "Draft",
+        "managerDecision": "Pending",
+        "managerDecisionReason": "",
+        "priority": "Medium",
+        "research": "",
+        "referenceLink": "",
+        "minParticipants": 0,
+        "capacity": 0,
+        "budget": 0,
+        "expectedRevenue": 0,
+        "scheduleConfirmed": false,
+        "marketingBrief": "",
+        "studioRequested": false,
+        "studioStatus": "Not Requested",
+        "comment": "",
+        "marginStatus": "Pending"
+      },
+      "commercial": {
+        "b2c": {
+          "status": "Not Started",
+          "fee": 0,
+          "paymentMethod": "Online Payment",
+          "leads": 0,
+          "registered": 0,
+          "paid": 0,
+          "waitlist": 0
+        },
+        "b2b": {
+          "status": "Not Started",
+          "account": "",
+          "stage": "Qualified",
+          "proposal": "",
+          "contract": "",
+          "value": 0,
+          "participants": 0
+        },
+        "status": "Not Started"
+      },
+      "readiness": {
+        "checklist": {
+          "agenda": false,
+          "instructorContract": false,
+          "venue": false,
+          "materials": false,
+          "attendeesCommunicated": false,
+          "sponsorConfirmed": false,
+          "financeClearance": false,
+          "avTest": false
+        },
+        "decision": "Pending",
+        "comment": "",
+        "preparedBy": "",
+        "decidedBy": ""
+      },
+      "delivery": {
+        "status": "Not Started",
+        "actualAttendees": 0,
+        "instructorArrived": false,
+        "sessions": [
+          {
+            "name": "Opening Session",
+            "status": "Not Started",
+            "date": "2026-09-21",
+            "time": "09:00"
+          },
+          {
+            "name": "Main Session",
+            "status": "Not Started",
+            "date": "2026-09-22",
+            "time": "11:00"
+          },
+          {
+            "name": "Applied Workshop",
+            "status": "Not Started",
+            "date": "2026-09-23",
+            "time": "14:00"
+          }
+        ],
+        "incidents": [],
+        "evidence": "",
+        "comment": ""
+      },
+      "assessment": {
+        "status": "Not Started",
+        "assessmentCompleted": false,
+        "passCount": 0,
+        "feedbackScore": 0,
+        "resultFile": "",
+        "certificatesIssued": 0,
+        "certificateFile": "",
+        "comment": ""
+      },
+      "finance": {
+        "status": "Open",
+        "actualRevenue": 0,
+        "actualCost": 0,
+        "sponsorshipCollected": 0,
+        "instructorPaid": false,
+        "vendorPaid": false,
+        "paymentProof": "",
+        "pnlClosed": false,
+        "comment": ""
+      },
+      "recruitment": {
+        "applicable": true,
+        "status": "Not Started",
+        "eligible": 0,
+        "consented": 0,
+        "jobReady": 0,
+        "placementPool": 0,
+        "shortlisted": 0,
+        "placed": 0,
+        "evidence": "",
+        "comment": ""
+      },
+      "improvement": {
+        "status": "Not Started",
+        "reportFile": "",
+        "reviewCompleted": false,
+        "actions": [],
+        "comment": ""
+      },
+      "closure": {
+        "status": "Open",
+        "operationalClosed": false,
+        "financialClosed": false,
+        "lessons": "",
+        "closedBy": "",
+        "closedAt": ""
+      },
+      "stages": [
+        {
+          "name": "Request & Greenlight",
+          "status": "Completed",
+          "progress": 100
+        },
+        {
+          "name": "Curriculum",
+          "status": "Active",
+          "progress": 0
+        },
+        {
+          "name": "Instructor Setup",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Launch, Commercial, Operations & Finance",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Readiness, Delivery & Assessment",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Graduate Outcomes",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Reporting & Improvement",
+          "status": "Upcoming",
+          "progress": 0
+        },
+        {
+          "name": "Final Closure",
+          "status": "Upcoming",
+          "progress": 0
+        }
+      ],
+      "activities": [
+        {
+          "name": "Instructors",
+          "ownerPosition": "Operations Specialist — Instructor Coordination",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "instructorType": "External",
+          "fee": 0,
+          "agenda": ""
+        },
+        {
+          "name": "Logistics & Place",
+          "ownerPosition": "Operations Specialist — Logistics",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "venue": "",
+          "materials": "",
+          "budget": 0
+        },
+        {
+          "name": "Attendees",
+          "ownerPosition": "Operations Specialist — Registration",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "attendeeType": "B2B",
+          "subtype": "",
+          "fee": 0,
+          "paymentMethod": "Corporate Invoice",
+          "expectedCount": 0,
+          "attendeeList": ""
+        },
+        {
+          "name": "Sponsorships",
+          "ownerPosition": "Operations Specialist — Partnerships Support",
+          "status": "Not Started",
+          "progress": 0,
+          "comment": "",
+          "visits": [],
+          "sponsor": "",
+          "amount": 0
+        }
+      ],
+      "audit": [
+        {
+          "id": "AUD-1787466874617-8b23",
+          "programId": "PRG-0011",
+          "at": "2026-08-23T06:34:34.617Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Academy Manager approved Greenlight"
+        },
+        {
+          "id": "AUD-1787466868264-8ee1",
+          "programId": "PRG-0011",
+          "at": "2026-08-23T06:34:28.264Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program request submitted for Greenlight"
+        },
+        {
+          "id": "AUD-1787466680151-5808",
+          "programId": "PRG-0011",
+          "at": "2026-08-23T06:31:20.151Z",
+          "by": "eslam el hefny",
+          "position": "Academy Manager",
+          "action": "Program record created"
+        }
+      ],
+      "operations": {
+        "reviewStatus": "Not Started"
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "id": "ASN-1787467929219-16ae",
+      "programId": "PRG-0001",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Review complete launch plan and decide Go / No Go",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:52:09.219Z",
+      "taskId": 1787467963312
+    },
+    {
+      "id": "ASN-1787467929219-4c26",
+      "programId": "PRG-0001",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Review launch budget and expected revenue",
+      "ownerPosition": "Finance — PMB",
+      "priority": "Medium",
+      "due": "2026-08-27",
+      "status": "Open",
+      "kind": "Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:52:09.219Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787467929219-ec8f",
+      "programId": "PRG-0001",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Prepare studio production request",
+      "ownerPosition": "Studio Account Manager",
+      "priority": "Medium",
+      "due": "2026-08-28",
+      "status": "Open",
+      "kind": "Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:52:09.219Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787467929219-4ac0",
+      "programId": "PRG-0001",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Prepare program marketing brief",
+      "ownerPosition": "Marketing Account Manager",
+      "priority": "Medium",
+      "due": "2026-08-27",
+      "status": "Open",
+      "kind": "Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:52:09.219Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787467929219-99dd",
+      "programId": "PRG-0001",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete launch schedule, capacity, and operations plan",
+      "ownerPosition": "Academy Operations Supervisor",
+      "priority": "High",
+      "due": "2026-08-27",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:52:09.219Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787467809029-69c8",
+      "programId": "PRG-0001",
+      "stage": "Instructor Setup",
+      "action": "Complete instructor onboarding file",
+      "ownerPosition": "Academy Operations Supervisor",
+      "priority": "Medium",
+      "due": "2026-08-29",
+      "status": "Completed",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:50:09.029Z",
+      "taskId": null,
+      "completedAt": "2026-08-23T06:51:57.380Z"
+    },
+    {
+      "id": "ASN-1787467809029-55f3",
+      "programId": "PRG-0001",
+      "stage": "Instructor Setup",
+      "action": "Complete instructor contract and reference",
+      "ownerPosition": "Legal",
+      "priority": "High",
+      "due": "2026-08-29",
+      "status": "Completed",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:50:09.029Z",
+      "taskId": null,
+      "completedAt": "2026-08-23T06:51:57.380Z"
+    },
+    {
+      "id": "ASN-1787467809029-22f0",
+      "programId": "PRG-0001",
+      "stage": "Instructor Setup",
+      "action": "Approve selected instructor fee",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-28",
+      "status": "Completed",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:50:09.029Z",
+      "taskId": 1787467851356,
+      "completedAt": "2026-08-23T06:51:57.380Z"
+    },
+    {
+      "id": "ASN-1787467809029-b8e4",
+      "programId": "PRG-0001",
+      "stage": "Instructor Setup",
+      "action": "Shortlist, evaluate, and select instructor",
+      "ownerPosition": "Program Operations Executive",
+      "priority": "High",
+      "due": "2026-08-27",
+      "status": "Completed",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:50:09.029Z",
+      "taskId": null,
+      "completedAt": "2026-08-23T06:52:09.203Z"
+    },
+    {
+      "id": "ASN-1787195905031-e2df",
+      "programId": "PRG-0001",
+      "stage": "Curriculum",
+      "action": "Complete curriculum outline, topic, competences, duration and draft pack",
+      "ownerPosition": "Curriculum Developer",
+      "priority": "High",
+      "due": "2026-08-25",
+      "status": "Completed",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.031Z",
+      "taskId": null,
+      "completedAt": "2026-08-23T06:49:54.143Z"
+    },
+    {
+      "id": "ASN-1787195905031-e79d",
+      "programId": "PRG-0001",
+      "stage": "Curriculum",
+      "action": "Review curriculum QA and lock release",
+      "ownerPosition": "Academy Curriculum Development Manager",
+      "priority": "High",
+      "due": "2026-08-26",
+      "status": "Completed",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.031Z",
+      "taskId": null,
+      "completedAt": "2026-08-23T06:50:09.029Z"
+    },
+    {
+      "id": "ASN-1787195905770-c5d5",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Instructors activity",
+      "ownerPosition": "Operations Specialist — Instructor Coordination",
+      "priority": "High",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Instructors",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195905770-31f7",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Follow up with Dr. Mona Adel",
+      "ownerPosition": "Operations Specialist — Instructor Coordination",
+      "priority": "High",
+      "due": "2026-08-21",
+      "status": "Open",
+      "kind": "Follow-Up",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Instructors",
+      "sourceVisitId": "TV-I1",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195905770-9899",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Logistics & Place activity",
+      "ownerPosition": "Operations Specialist — Logistics",
+      "priority": "Medium",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Logistics & Place",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195905770-639d",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Attendees activity",
+      "ownerPosition": "Operations Specialist — Registration",
+      "priority": "Medium",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Attendees",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195905770-0cc5",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Follow up with Corporate Account",
+      "ownerPosition": "Operations Specialist — Registration",
+      "priority": "High",
+      "due": "2026-08-22",
+      "status": "Open",
+      "kind": "Follow-Up",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Attendees",
+      "sourceVisitId": "TV-A1",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195905770-da91",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Sponsorships activity",
+      "ownerPosition": "Operations Specialist — Partnerships Support",
+      "priority": "Medium",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Sponsorships",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195905770-fa98",
+      "programId": "PRG-0002",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Review parallel operational activities",
+      "ownerPosition": "Academy Operations Supervisor",
+      "priority": "High",
+      "due": "2026-08-28",
+      "status": "Open",
+      "kind": "Review",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:25.770Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787195909520-bec5",
+      "programId": "PRG-0003",
+      "stage": "Request & Greenlight",
+      "action": "Complete and submit program request",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-21",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:18:29.520Z",
+      "taskId": 1787195974784
+    },
+    {
+      "id": "ASN-1787196316151-2d2b",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Instructors activity",
+      "ownerPosition": "Operations Specialist — Instructor Coordination",
+      "priority": "High",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Instructors",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316151-27f8",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Follow up with Dr. Mona Adel",
+      "ownerPosition": "Operations Specialist — Instructor Coordination",
+      "priority": "High",
+      "due": "2026-08-21",
+      "status": "Open",
+      "kind": "Follow-Up",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Instructors",
+      "sourceVisitId": "TV-I1",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316151-cfa9",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Logistics & Place activity",
+      "ownerPosition": "Operations Specialist — Logistics",
+      "priority": "Medium",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Logistics & Place",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316151-cb20",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Attendees activity",
+      "ownerPosition": "Operations Specialist — Registration",
+      "priority": "Medium",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Attendees",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316151-0694",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Follow up with Corporate Account",
+      "ownerPosition": "Operations Specialist — Registration",
+      "priority": "High",
+      "due": "2026-08-22",
+      "status": "Open",
+      "kind": "Follow-Up",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Attendees",
+      "sourceVisitId": "TV-A1",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316151-dd97",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Sponsorships activity",
+      "ownerPosition": "Operations Specialist — Partnerships Support",
+      "priority": "Medium",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Sponsorships",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316151-75bc",
+      "programId": "PRG-0004",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Review parallel operational activities",
+      "ownerPosition": "Academy Operations Supervisor",
+      "priority": "High",
+      "due": "2026-08-28",
+      "status": "Open",
+      "kind": "Review",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.151Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316616-751f",
+      "programId": "PRG-0005",
+      "stage": "Curriculum",
+      "action": "Complete curriculum outline, topic, competences, duration and draft pack",
+      "ownerPosition": "Curriculum Developer",
+      "priority": "High",
+      "due": "2026-08-25",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.616Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196316616-7609",
+      "programId": "PRG-0005",
+      "stage": "Curriculum",
+      "action": "Review curriculum QA and lock release",
+      "ownerPosition": "Academy Curriculum Development Manager",
+      "priority": "High",
+      "due": "2026-08-26",
+      "status": "Open",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:16.616Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787196317449-8ae6",
+      "programId": "PRG-0006",
+      "stage": "Readiness, Delivery & Assessment",
+      "action": "Review readiness and record delivery decision",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-20",
+      "status": "Open",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:17.449Z",
+      "taskId": 1787196338731
+    },
+    {
+      "id": "ASN-1787196318723-3c70",
+      "programId": "PRG-0007",
+      "stage": "Request & Greenlight",
+      "action": "Complete and submit program request",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-21",
+      "status": "Completed",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-20T03:25:18.723Z",
+      "taskId": 1787196378489,
+      "completedAt": "2026-08-20T03:26:15.499Z"
+    },
+    {
+      "id": "ASN-1787466678399-3fb4",
+      "programId": "PRG-0008",
+      "stage": "Curriculum",
+      "action": "Complete curriculum outline, topic, competences, duration and draft pack",
+      "ownerPosition": "Curriculum Developer",
+      "priority": "High",
+      "due": "2026-08-28",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.399Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678399-fc2c",
+      "programId": "PRG-0008",
+      "stage": "Curriculum",
+      "action": "Review curriculum QA and lock release",
+      "ownerPosition": "Academy Curriculum Development Manager",
+      "priority": "High",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.399Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678764-e3a0",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Instructors activity",
+      "ownerPosition": "Operations Specialist — Instructor Coordination",
+      "priority": "High",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Instructors",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.764Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678764-695f",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Follow up with Dr. Mona Adel",
+      "ownerPosition": "Operations Specialist — Instructor Coordination",
+      "priority": "High",
+      "due": "2026-08-24",
+      "status": "Open",
+      "kind": "Follow-Up",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Instructors",
+      "sourceVisitId": "TV-I1",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.764Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678764-1176",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Logistics & Place activity",
+      "ownerPosition": "Operations Specialist — Logistics",
+      "priority": "Medium",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Logistics & Place",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.764Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678764-5a79",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Attendees activity",
+      "ownerPosition": "Operations Specialist — Registration",
+      "priority": "Medium",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Attendees",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.764Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678765-e639",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Follow up with Corporate Account",
+      "ownerPosition": "Operations Specialist — Registration",
+      "priority": "High",
+      "due": "2026-08-25",
+      "status": "Open",
+      "kind": "Follow-Up",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Attendees",
+      "sourceVisitId": "TV-A1",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.765Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678765-3fd3",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Complete Sponsorships activity",
+      "ownerPosition": "Operations Specialist — Partnerships Support",
+      "priority": "Medium",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "Sponsorships",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.765Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466678765-8801",
+      "programId": "PRG-0009",
+      "stage": "Launch, Commercial, Operations & Finance",
+      "action": "Review parallel operational activities",
+      "ownerPosition": "Academy Operations Supervisor",
+      "priority": "High",
+      "due": "2026-08-31",
+      "status": "Open",
+      "kind": "Review",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:18.765Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466679470-b7a7",
+      "programId": "PRG-0010",
+      "stage": "Readiness, Delivery & Assessment",
+      "action": "Review readiness and record delivery decision",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-23",
+      "status": "Open",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:19.470Z",
+      "taskId": 1787466750952
+    },
+    {
+      "id": "ASN-1787466680151-a55a",
+      "programId": "PRG-0011",
+      "stage": "Request & Greenlight",
+      "action": "Complete and submit program request",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-24",
+      "status": "Completed",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:31:20.151Z",
+      "taskId": 1787466709382,
+      "completedAt": "2026-08-23T06:34:28.264Z"
+    },
+    {
+      "id": "ASN-1787466868264-ffc9",
+      "programId": "PRG-0011",
+      "stage": "Request & Greenlight",
+      "action": "Review and decide Program Greenlight",
+      "ownerPosition": "Academy Manager",
+      "priority": "High",
+      "due": "2026-08-23",
+      "status": "Completed",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:34:28.264Z",
+      "taskId": 1787466916258,
+      "completedAt": "2026-08-23T06:34:34.617Z"
+    },
+    {
+      "id": "ASN-1787466874617-fa45",
+      "programId": "PRG-0011",
+      "stage": "Curriculum",
+      "action": "Complete curriculum outline, topic, competences, duration and draft pack",
+      "ownerPosition": "Curriculum Developer",
+      "priority": "High",
+      "due": "2026-08-28",
+      "status": "Open",
+      "kind": "Stage Action",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:34:34.617Z",
+      "taskId": null
+    },
+    {
+      "id": "ASN-1787466874617-a319",
+      "programId": "PRG-0011",
+      "stage": "Curriculum",
+      "action": "Review curriculum QA and lock release",
+      "ownerPosition": "Academy Curriculum Development Manager",
+      "priority": "High",
+      "due": "2026-08-29",
+      "status": "Open",
+      "kind": "Approval",
+      "notes": "",
+      "assignedBy": "eslam el hefny",
+      "sourceActivity": "",
+      "sourceVisitId": "",
+      "sourceImprovementId": "",
+      "sourceIncidentId": "",
+      "createdAt": "2026-08-23T06:34:34.617Z",
+      "taskId": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NTF-1787467929219-b856",
+      "title": "Approval requested",
+      "message": "Review complete launch plan and decide Go / No Go · Academy Stage 2–8 Test Program · Due 2026-08-29",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467929219-16ae",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-23T06:52:09.219Z"
+    },
+    {
+      "id": "NTF-1787467929219-c5b9",
+      "title": "Work assigned",
+      "message": "Review launch budget and expected revenue · Academy Stage 2–8 Test Program · Due 2026-08-27",
+      "targetPosition": "Finance — PMB",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467929219-4c26",
+      "type": "Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:52:09.219Z"
+    },
+    {
+      "id": "NTF-1787467929219-f800",
+      "title": "Work assigned",
+      "message": "Prepare studio production request · Academy Stage 2–8 Test Program · Due 2026-08-28",
+      "targetPosition": "Studio Account Manager",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467929219-ec8f",
+      "type": "Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:52:09.219Z"
+    },
+    {
+      "id": "NTF-1787467929219-8357",
+      "title": "Work assigned",
+      "message": "Prepare program marketing brief · Academy Stage 2–8 Test Program · Due 2026-08-27",
+      "targetPosition": "Marketing Account Manager",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467929219-4ac0",
+      "type": "Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:52:09.219Z"
+    },
+    {
+      "id": "NTF-1787467929219-3ccf",
+      "title": "Work assigned",
+      "message": "Complete launch schedule, capacity, and operations plan · Academy Stage 2–8 Test Program · Due 2026-08-27",
+      "targetPosition": "Academy Operations Supervisor",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467929219-99dd",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:52:09.219Z"
+    },
+    {
+      "id": "NTF-1787467809029-e534",
+      "title": "Work assigned",
+      "message": "Complete instructor onboarding file · Academy Stage 2–8 Test Program · Due 2026-08-29",
+      "targetPosition": "Academy Operations Supervisor",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467809029-69c8",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:50:09.029Z"
+    },
+    {
+      "id": "NTF-1787467809029-1274",
+      "title": "Work assigned",
+      "message": "Complete instructor contract and reference · Academy Stage 2–8 Test Program · Due 2026-08-29",
+      "targetPosition": "Legal",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467809029-55f3",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:50:09.029Z"
+    },
+    {
+      "id": "NTF-1787467809029-b9a3",
+      "title": "Approval requested",
+      "message": "Approve selected instructor fee · Academy Stage 2–8 Test Program · Due 2026-08-28",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467809029-22f0",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-23T06:50:09.029Z"
+    },
+    {
+      "id": "NTF-1787467809029-6ca6",
+      "title": "Work assigned",
+      "message": "Shortlist, evaluate, and select instructor · Academy Stage 2–8 Test Program · Due 2026-08-27",
+      "targetPosition": "Program Operations Executive",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787467809029-b8e4",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:50:09.029Z"
+    },
+    {
+      "id": "NTF-1787195905029-eea4",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Stage 2–8 Test Program · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787195905029-7d5c",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.029Z"
+    },
+    {
+      "id": "NTF-1787195905031-c885",
+      "title": "Work assigned",
+      "message": "Complete curriculum outline, topic, competences, duration and draft pack · Academy Stage 2–8 Test Program · Due 2026-08-25",
+      "targetPosition": "Curriculum Developer",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787195905031-e2df",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.031Z"
+    },
+    {
+      "id": "NTF-1787195905031-ec97",
+      "title": "Approval requested",
+      "message": "Review curriculum QA and lock release · Academy Stage 2–8 Test Program · Due 2026-08-26",
+      "targetPosition": "Academy Curriculum Development Manager",
+      "programId": "PRG-0001",
+      "assignmentId": "ASN-1787195905031-e79d",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.031Z"
+    },
+    {
+      "id": "NTF-1787195905770-d342",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Workflow Test Program · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-fedd",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-1a66",
+      "title": "Work assigned",
+      "message": "Complete Instructors activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Instructor Coordination",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-c5d5",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-85a4",
+      "title": "Follow-up assigned",
+      "message": "Follow up with Dr. Mona Adel · Academy Workflow Test Program · Due 2026-08-21",
+      "targetPosition": "Operations Specialist — Instructor Coordination",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-31f7",
+      "type": "Follow-Up",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-69c0",
+      "title": "Work assigned",
+      "message": "Complete Logistics & Place activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Logistics",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-9899",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-6f81",
+      "title": "Work assigned",
+      "message": "Complete Attendees activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Registration",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-639d",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-ca0e",
+      "title": "Follow-up assigned",
+      "message": "Follow up with Corporate Account · Academy Workflow Test Program · Due 2026-08-22",
+      "targetPosition": "Operations Specialist — Registration",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-0cc5",
+      "type": "Follow-Up",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-08bf",
+      "title": "Work assigned",
+      "message": "Complete Sponsorships activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Partnerships Support",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-da91",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195905770-b30a",
+      "title": "Work assigned",
+      "message": "Review parallel operational activities · Academy Workflow Test Program · Due 2026-08-28",
+      "targetPosition": "Academy Operations Supervisor",
+      "programId": "PRG-0002",
+      "assignmentId": "ASN-1787195905770-fa98",
+      "type": "Review",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:25.770Z"
+    },
+    {
+      "id": "NTF-1787195909520-9a44",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Clinical Leadership Certificate · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0003",
+      "assignmentId": "ASN-1787195909520-bec5",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:18:29.520Z"
+    },
+    {
+      "id": "NTF-1787196316151-bc63",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Workflow Test Program · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-3f5f",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-a77e",
+      "title": "Work assigned",
+      "message": "Complete Instructors activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Instructor Coordination",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-2d2b",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-afd1",
+      "title": "Follow-up assigned",
+      "message": "Follow up with Dr. Mona Adel · Academy Workflow Test Program · Due 2026-08-21",
+      "targetPosition": "Operations Specialist — Instructor Coordination",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-27f8",
+      "type": "Follow-Up",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-1892",
+      "title": "Work assigned",
+      "message": "Complete Logistics & Place activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Logistics",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-cfa9",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-485b",
+      "title": "Work assigned",
+      "message": "Complete Attendees activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Registration",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-cb20",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-4820",
+      "title": "Follow-up assigned",
+      "message": "Follow up with Corporate Account · Academy Workflow Test Program · Due 2026-08-22",
+      "targetPosition": "Operations Specialist — Registration",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-0694",
+      "type": "Follow-Up",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-70fe",
+      "title": "Work assigned",
+      "message": "Complete Sponsorships activity · Academy Workflow Test Program · Due 2026-08-26",
+      "targetPosition": "Operations Specialist — Partnerships Support",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-dd97",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316151-6a4c",
+      "title": "Work assigned",
+      "message": "Review parallel operational activities · Academy Workflow Test Program · Due 2026-08-28",
+      "targetPosition": "Academy Operations Supervisor",
+      "programId": "PRG-0004",
+      "assignmentId": "ASN-1787196316151-75bc",
+      "type": "Review",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.151Z"
+    },
+    {
+      "id": "NTF-1787196316616-ca12",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Stage 2–8 Test Program · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0005",
+      "assignmentId": "ASN-1787196316616-de62",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.616Z"
+    },
+    {
+      "id": "NTF-1787196316616-b774",
+      "title": "Work assigned",
+      "message": "Complete curriculum outline, topic, competences, duration and draft pack · Academy Stage 2–8 Test Program · Due 2026-08-25",
+      "targetPosition": "Curriculum Developer",
+      "programId": "PRG-0005",
+      "assignmentId": "ASN-1787196316616-751f",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.616Z"
+    },
+    {
+      "id": "NTF-1787196316616-189a",
+      "title": "Approval requested",
+      "message": "Review curriculum QA and lock release · Academy Stage 2–8 Test Program · Due 2026-08-26",
+      "targetPosition": "Academy Curriculum Development Manager",
+      "programId": "PRG-0005",
+      "assignmentId": "ASN-1787196316616-7609",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:16.616Z"
+    },
+    {
+      "id": "NTF-1787196317449-520d",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Late-Stage Lifecycle Test · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0006",
+      "assignmentId": "ASN-1787196317449-86ea",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:17.449Z"
+    },
+    {
+      "id": "NTF-1787196317449-6e15",
+      "title": "Approval requested",
+      "message": "Review readiness and record delivery decision · Academy Late-Stage Lifecycle Test · Due 2026-08-20",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0006",
+      "assignmentId": "ASN-1787196317449-8ae6",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:17.449Z"
+    },
+    {
+      "id": "NTF-1787196318723-c493",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Clinical Leadership Certificate · Due 2026-08-21",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0007",
+      "assignmentId": "ASN-1787196318723-3c70",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-20T03:25:18.723Z"
+    },
+    {
+      "id": "NTF-1787196375499-9d7a",
+      "title": "Work completed",
+      "message": "Complete and submit program request",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0007",
+      "assignmentId": "",
+      "type": "Completed",
+      "read": false,
+      "createdAt": "2026-08-20T03:26:15.499Z"
+    },
+    {
+      "id": "NTF-1787466678399-6a9e",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Stage 2–8 Test Program · Due 2026-08-24",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0008",
+      "assignmentId": "ASN-1787466678398-a951",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.399Z"
+    },
+    {
+      "id": "NTF-1787466678399-d81a",
+      "title": "Work assigned",
+      "message": "Complete curriculum outline, topic, competences, duration and draft pack · Academy Stage 2–8 Test Program · Due 2026-08-28",
+      "targetPosition": "Curriculum Developer",
+      "programId": "PRG-0008",
+      "assignmentId": "ASN-1787466678399-3fb4",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.399Z"
+    },
+    {
+      "id": "NTF-1787466678399-c269",
+      "title": "Approval requested",
+      "message": "Review curriculum QA and lock release · Academy Stage 2–8 Test Program · Due 2026-08-29",
+      "targetPosition": "Academy Curriculum Development Manager",
+      "programId": "PRG-0008",
+      "assignmentId": "ASN-1787466678399-fc2c",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.399Z"
+    },
+    {
+      "id": "NTF-1787466678764-2ff1",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Workflow Test Program · Due 2026-08-24",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678764-598d",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.764Z"
+    },
+    {
+      "id": "NTF-1787466678764-afa8",
+      "title": "Work assigned",
+      "message": "Complete Instructors activity · Academy Workflow Test Program · Due 2026-08-29",
+      "targetPosition": "Operations Specialist — Instructor Coordination",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678764-e3a0",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.764Z"
+    },
+    {
+      "id": "NTF-1787466678764-0f62",
+      "title": "Follow-up assigned",
+      "message": "Follow up with Dr. Mona Adel · Academy Workflow Test Program · Due 2026-08-24",
+      "targetPosition": "Operations Specialist — Instructor Coordination",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678764-695f",
+      "type": "Follow-Up",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.764Z"
+    },
+    {
+      "id": "NTF-1787466678764-e6b6",
+      "title": "Work assigned",
+      "message": "Complete Logistics & Place activity · Academy Workflow Test Program · Due 2026-08-29",
+      "targetPosition": "Operations Specialist — Logistics",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678764-1176",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.764Z"
+    },
+    {
+      "id": "NTF-1787466678764-5400",
+      "title": "Work assigned",
+      "message": "Complete Attendees activity · Academy Workflow Test Program · Due 2026-08-29",
+      "targetPosition": "Operations Specialist — Registration",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678764-5a79",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.764Z"
+    },
+    {
+      "id": "NTF-1787466678765-70f4",
+      "title": "Follow-up assigned",
+      "message": "Follow up with Corporate Account · Academy Workflow Test Program · Due 2026-08-25",
+      "targetPosition": "Operations Specialist — Registration",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678765-e639",
+      "type": "Follow-Up",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.765Z"
+    },
+    {
+      "id": "NTF-1787466678765-283a",
+      "title": "Work assigned",
+      "message": "Complete Sponsorships activity · Academy Workflow Test Program · Due 2026-08-29",
+      "targetPosition": "Operations Specialist — Partnerships Support",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678765-3fd3",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.765Z"
+    },
+    {
+      "id": "NTF-1787466678765-98d8",
+      "title": "Work assigned",
+      "message": "Review parallel operational activities · Academy Workflow Test Program · Due 2026-08-31",
+      "targetPosition": "Academy Operations Supervisor",
+      "programId": "PRG-0009",
+      "assignmentId": "ASN-1787466678765-8801",
+      "type": "Review",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:18.765Z"
+    },
+    {
+      "id": "NTF-1787466679470-4df4",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Academy Late-Stage Lifecycle Test · Due 2026-08-24",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0010",
+      "assignmentId": "ASN-1787466679470-7256",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:19.470Z"
+    },
+    {
+      "id": "NTF-1787466679470-70a8",
+      "title": "Approval requested",
+      "message": "Review readiness and record delivery decision · Academy Late-Stage Lifecycle Test · Due 2026-08-23",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0010",
+      "assignmentId": "ASN-1787466679470-b7a7",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:19.470Z"
+    },
+    {
+      "id": "NTF-1787466680151-fba7",
+      "title": "Work assigned",
+      "message": "Complete and submit program request · Clinical Leadership Certificate · Due 2026-08-24",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0011",
+      "assignmentId": "ASN-1787466680151-a55a",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:31:20.151Z"
+    },
+    {
+      "id": "NTF-1787466868264-d46c",
+      "title": "Approval requested",
+      "message": "Review and decide Program Greenlight · Clinical Leadership Certificate · Due 2026-08-23",
+      "targetPosition": "Academy Manager",
+      "programId": "PRG-0011",
+      "assignmentId": "ASN-1787466868264-ffc9",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-23T06:34:28.264Z"
+    },
+    {
+      "id": "NTF-1787466874617-4249",
+      "title": "Work assigned",
+      "message": "Complete curriculum outline, topic, competences, duration and draft pack · Clinical Leadership Certificate · Due 2026-08-28",
+      "targetPosition": "Curriculum Developer",
+      "programId": "PRG-0011",
+      "assignmentId": "ASN-1787466874617-fa45",
+      "type": "Stage Action",
+      "read": false,
+      "createdAt": "2026-08-23T06:34:34.617Z"
+    },
+    {
+      "id": "NTF-1787466874617-bff3",
+      "title": "Approval requested",
+      "message": "Review curriculum QA and lock release · Clinical Leadership Certificate · Due 2026-08-29",
+      "targetPosition": "Academy Curriculum Development Manager",
+      "programId": "PRG-0011",
+      "assignmentId": "ASN-1787466874617-a319",
+      "type": "Approval",
+      "read": false,
+      "createdAt": "2026-08-23T06:34:34.617Z"
+    }
+  ],
+  "audit": [
+    {
+      "id": "AUD-1787467929219-66bb",
+      "programId": "PRG-0001",
+      "at": "2026-08-23T06:52:09.219Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Academy Manager completed Instructor Setup; Launch, Commercial, Operations & Finance activated"
+    },
+    {
+      "id": "AUD-1787467929203-17be",
+      "programId": "PRG-0001",
+      "at": "2026-08-23T06:52:09.203Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Instructor Setup record updated"
+    },
+    {
+      "id": "AUD-1787467917380-8d22",
+      "programId": "PRG-0001",
+      "at": "2026-08-23T06:51:57.380Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Instructor Setup record updated"
+    },
+    {
+      "id": "AUD-1787467809029-fc1e",
+      "programId": "PRG-0001",
+      "at": "2026-08-23T06:50:09.029Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Academy Manager completed Curriculum; Instructor Setup activated"
+    },
+    {
+      "id": "AUD-1787467794160-c735",
+      "programId": "PRG-0001",
+      "at": "2026-08-23T06:49:54.160Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Curriculum QA completed"
+    },
+    {
+      "id": "AUD-1787467794143-f711",
+      "programId": "PRG-0001",
+      "at": "2026-08-23T06:49:54.143Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Curriculum draft saved"
+    },
+    {
+      "id": "AUD-1787466874617-8b23",
+      "programId": "PRG-0011",
+      "at": "2026-08-23T06:34:34.617Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Academy Manager approved Greenlight"
+    },
+    {
+      "id": "AUD-1787466868264-8ee1",
+      "programId": "PRG-0011",
+      "at": "2026-08-23T06:34:28.264Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program request submitted for Greenlight"
+    },
+    {
+      "id": "AUD-1787466680151-5808",
+      "programId": "PRG-0011",
+      "at": "2026-08-23T06:31:20.151Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787466679470-1af9",
+      "programId": "PRG-0010",
+      "at": "2026-08-23T06:31:19.470Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Late-stage test program prepared at Readiness"
+    },
+    {
+      "id": "AUD-1787466679470-bb7f",
+      "programId": "PRG-0010",
+      "at": "2026-08-23T06:31:19.470Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787466678765-0098",
+      "programId": "PRG-0009",
+      "at": "2026-08-23T06:31:18.765Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Workflow test program advanced to Operational Activities"
+    },
+    {
+      "id": "AUD-1787466678764-1296",
+      "programId": "PRG-0009",
+      "at": "2026-08-23T06:31:18.764Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787466678399-4648",
+      "programId": "PRG-0008",
+      "at": "2026-08-23T06:31:18.399Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Stage 2–8 test program prepared after approved Greenlight"
+    },
+    {
+      "id": "AUD-1787466678399-9af1",
+      "programId": "PRG-0008",
+      "at": "2026-08-23T06:31:18.399Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787196375499-033d",
+      "programId": "PRG-0007",
+      "at": "2026-08-20T03:26:15.499Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Complete and submit program request completed"
+    },
+    {
+      "id": "AUD-1787196318723-3c80",
+      "programId": "PRG-0007",
+      "at": "2026-08-20T03:25:18.723Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787196317449-11ee",
+      "programId": "PRG-0006",
+      "at": "2026-08-20T03:25:17.449Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Late-stage test program prepared at Readiness"
+    },
+    {
+      "id": "AUD-1787196317449-8d81",
+      "programId": "PRG-0006",
+      "at": "2026-08-20T03:25:17.449Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787196316616-3132",
+      "programId": "PRG-0005",
+      "at": "2026-08-20T03:25:16.616Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Stage 2–8 test program prepared after approved Greenlight"
+    },
+    {
+      "id": "AUD-1787196316616-3b52",
+      "programId": "PRG-0005",
+      "at": "2026-08-20T03:25:16.616Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787196316151-1564",
+      "programId": "PRG-0004",
+      "at": "2026-08-20T03:25:16.151Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Workflow test program advanced to Operational Activities"
+    },
+    {
+      "id": "AUD-1787196316151-d26b",
+      "programId": "PRG-0004",
+      "at": "2026-08-20T03:25:16.151Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787195909520-6a4e",
+      "programId": "PRG-0003",
+      "at": "2026-08-20T03:18:29.520Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787195905770-55a0",
+      "programId": "PRG-0002",
+      "at": "2026-08-20T03:18:25.770Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Workflow test program advanced to Operational Activities"
+    },
+    {
+      "id": "AUD-1787195905770-079c",
+      "programId": "PRG-0002",
+      "at": "2026-08-20T03:18:25.770Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    },
+    {
+      "id": "AUD-1787195905031-73bb",
+      "programId": "PRG-0001",
+      "at": "2026-08-20T03:18:25.031Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Stage 2–8 test program prepared after approved Greenlight"
+    },
+    {
+      "id": "AUD-1787195905029-5430",
+      "programId": "PRG-0001",
+      "at": "2026-08-20T03:18:25.029Z",
+      "by": "eslam el hefny",
+      "position": "Academy Manager",
+      "action": "Program record created"
+    }
+  ],
+  "documents": [],
+  "masterData": {
+    "programTypes": [
+      {
+        "active": true,
+        "id": "programTypes-1",
+        "name": "Certificate Program"
+      },
+      {
+        "active": true,
+        "id": "programTypes-2",
+        "name": "Workshop"
+      },
+      {
+        "active": true,
+        "id": "programTypes-3",
+        "name": "Corporate Program"
+      },
+      {
+        "active": true,
+        "id": "programTypes-4",
+        "name": "Webinar"
+      }
+    ],
+    "specialties": [
+      {
+        "active": true,
+        "id": "specialties-1",
+        "name": "Clinical Leadership"
+      },
+      {
+        "active": true,
+        "id": "specialties-2",
+        "name": "Endoscopy"
+      },
+      {
+        "active": true,
+        "id": "specialties-3",
+        "name": "Infection Control"
+      },
+      {
+        "active": true,
+        "id": "specialties-4",
+        "name": "Hospital Management"
+      }
+    ],
+    "regions": [
+      {
+        "active": true,
+        "id": "regions-1",
+        "name": "Egypt"
+      },
+      {
+        "active": true,
+        "id": "regions-2",
+        "name": "KSA"
+      }
+    ],
+    "venues": [
+      {
+        "active": true,
+        "id": "venues-1",
+        "name": "Andalusia Academy Hall"
+      },
+      {
+        "active": true,
+        "id": "venues-2",
+        "name": "Simulation Laboratory"
+      },
+      {
+        "active": true,
+        "id": "venues-3",
+        "name": "Virtual Classroom"
+      }
+    ],
+    "materials": [
+      {
+        "active": true,
+        "id": "materials-1",
+        "name": "Projector and AV"
+      },
+      {
+        "active": true,
+        "id": "materials-2",
+        "name": "Printed Participant Kit"
+      },
+      {
+        "active": true,
+        "id": "materials-3",
+        "name": "Simulation Equipment"
+      },
+      {
+        "active": true,
+        "id": "materials-4",
+        "name": "Certificates"
+      }
+    ],
+    "sponsors": [
+      {
+        "active": true,
+        "id": "sponsors-1",
+        "name": "MedTech Partner"
+      },
+      {
+        "active": true,
+        "id": "sponsors-2",
+        "name": "Corporate Learning Partner"
+      }
+    ],
+    "instructors": [
+      {
+        "active": true,
+        "id": "instructors-1",
+        "name": "Dr. Mona Adel"
+      },
+      {
+        "active": true,
+        "id": "instructors-2",
+        "name": "Dr. Karim Nabil"
+      },
+      {
+        "active": true,
+        "id": "instructors-3",
+        "name": "Dr. Layla Hassan"
+      },
+      {
+        "active": true,
+        "id": "instructor-test-1787467824358-0",
+        "test": true,
+        "createdAt": "2026-08-23T06:50:24.358Z",
+        "name": "Dr. Salma Fawzy",
+        "email": "salma.fawzy@test.local",
+        "phone": "+20 100 555 0101",
+        "specialty": "Clinical Leadership",
+        "level": "Senior",
+        "source": "External",
+        "workSchedule": "Project Based",
+        "availability": "Available",
+        "region": "Egypt",
+        "notes": "Test instructor — leadership and management programs."
+      },
+      {
+        "active": true,
+        "id": "instructor-test-1787467824358-1",
+        "test": true,
+        "createdAt": "2026-08-23T06:50:24.358Z",
+        "name": "Dr. Omar El Sherif",
+        "email": "omar.sherif@test.local",
+        "phone": "+20 100 555 0102",
+        "specialty": "Endoscopy",
+        "level": "Consultant",
+        "source": "External",
+        "workSchedule": "Part Time",
+        "availability": "Limited",
+        "region": "Egypt",
+        "notes": "Test instructor — clinical specialty."
+      },
+      {
+        "active": true,
+        "id": "instructor-test-1787467824358-2",
+        "test": true,
+        "createdAt": "2026-08-23T06:50:24.358Z",
+        "name": "Dr. Nadia Kareem",
+        "email": "nadia.kareem@test.local",
+        "phone": "+966 50 555 0103",
+        "specialty": "Infection Control",
+        "level": "Senior",
+        "source": "External",
+        "workSchedule": "Project Based",
+        "availability": "Available",
+        "region": "KSA",
+        "notes": "Test instructor — infection prevention."
+      },
+      {
+        "active": true,
+        "id": "instructor-test-1787467824358-3",
+        "test": true,
+        "createdAt": "2026-08-23T06:50:24.358Z",
+        "name": "Dr. Tarek Mostafa",
+        "email": "tarek.mostafa@test.local",
+        "phone": "+20 100 555 0104",
+        "specialty": "Hospital Management",
+        "level": "Consultant",
+        "source": "Internal",
+        "workSchedule": "Part Time",
+        "availability": "Available",
+        "region": "Egypt",
+        "notes": "Test instructor — healthcare operations."
+      },
+      {
+        "active": true,
+        "id": "instructor-test-1787467824358-4",
+        "test": true,
+        "createdAt": "2026-08-23T06:50:24.358Z",
+        "name": "Dr. Reem Adel",
+        "email": "reem.adel@test.local",
+        "phone": "+20 100 555 0105",
+        "specialty": "Clinical Leadership",
+        "level": "Specialist",
+        "source": "Internal",
+        "workSchedule": "Hourly",
+        "availability": "Limited",
+        "region": "Egypt",
+        "notes": "Test instructor — facilitation and assessment."
+      },
+      {
+        "active": true,
+        "id": "instructor-test-1787467824358-5",
+        "test": true,
+        "createdAt": "2026-08-23T06:50:24.358Z",
+        "name": "Dr. Youssef Hamdy",
+        "email": "youssef.hamdy@test.local",
+        "phone": "+966 50 555 0106",
+        "specialty": "Hospital Management",
+        "level": "Senior",
+        "source": "External",
+        "workSchedule": "Project Based",
+        "availability": "Unavailable",
+        "region": "KSA",
+        "notes": "Test instructor — temporarily unavailable."
+      }
+    ],
+    "attendeeSubtypes": [
+      {
+        "active": true,
+        "id": "attendeeSubtypes-1",
+        "name": "Corporate Clients"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-2",
+        "name": "Corporate-Sponsored Employees"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-3",
+        "name": "University Students"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-4",
+        "name": "University Graduates"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-5",
+        "name": "Faculty Members"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-6",
+        "name": "Government-Sponsored Attendees"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-7",
+        "name": "Organization-Sponsored Attendees"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-8",
+        "name": "Partner Organization Attendees"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-9",
+        "name": "Scholarship Recipients"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-10",
+        "name": "Internship Participants"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-11",
+        "name": "Recruitment-Pipeline Candidates"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-12",
+        "name": "VIP and Guest Attendees"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-13",
+        "name": "External Individual Learners"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-14",
+        "name": "International Learners"
+      },
+      {
+        "active": true,
+        "id": "attendeeSubtypes-15",
+        "name": "Internal Employees"
+      }
+    ],
+    "paymentMethods": [
+      {
+        "active": true,
+        "id": "paymentMethods-1",
+        "name": "Online Payment"
+      },
+      {
+        "active": true,
+        "id": "paymentMethods-2",
+        "name": "Bank Transfer"
+      },
+      {
+        "active": true,
+        "id": "paymentMethods-3",
+        "name": "Corporate Invoice"
+      },
+      {
+        "active": true,
+        "id": "paymentMethods-4",
+        "name": "Cash"
+      }
+    ],
+    "visitTypes": [
+      {
+        "active": true,
+        "id": "visitTypes-1",
+        "name": "Physical Location"
+      },
+      {
+        "active": true,
+        "id": "visitTypes-2",
+        "name": "Online Meeting"
+      },
+      {
+        "active": true,
+        "id": "visitTypes-3",
+        "name": "Phone Call"
+      }
+    ]
+  },
+  "settings": {
+    "storage": "SQLite",
+    "jsonSnapshot": true,
+    "excelMirror": true,
+    "apiVersion": "v5-review-r9-local",
+    "microsoftReady": true
+  },
+  "ruleOverrides": {},
+  "updatedAt": "2026-08-23T09:52:09"
+}
