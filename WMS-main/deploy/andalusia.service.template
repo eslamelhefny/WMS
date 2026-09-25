@@ -1,0 +1,23 @@
+[Unit]
+Description=Andalusia Academy Work Management System
+After=network.target
+
+[Service]
+Type=simple
+User=andalusia
+Group=andalusia
+WorkingDirectory=/opt/andalusia
+Environment=ANDALUSIA_NO_BROWSER=1
+Environment=ANDALUSIA_PORT=8765
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/andalusia/.venv/bin/python /opt/andalusia/server.py
+Restart=always
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target

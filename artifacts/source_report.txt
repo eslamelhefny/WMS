@@ -1,0 +1,882 @@
+PAGE 1
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 1 
+ 
+ANDALUSIA ACADEMY 
+ANDALUSIA Management 
+System(AMS) 
+Power BI & Business Intelligence Handover Report 
+Operational System, UI Catalogue, Data Model, KPI Framework & BI Requirements 
+ 
+ 
+Version 1.0 
+Date 23 August 2026 
+Prepared For Power BI / Business Intelligence Team 
+ 
+ 
+ 
+  
+
+
+PAGE 2
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 2 
+00  Document Control 
+Item Detail 
+System Andalusia Academy Work Management System 
+Application baseline Revision 20.2 - Application Login & User Access 
+UI baseline Revision 19.1 Executive UI, with Revision 20.1 Program Stage Flow redesign preserved in 
+Revision 20.2 
+Audience Power BI Developers, Data Analysts, Data Engineers, BI Architects, Academy Management, 
+Project Managers 
+Brand theme Deep Navy + Terracotta + Warm Neutral, using the original Andalusia Academy logo 
+Confidentiality Internal project handover 
+ 
+Source Basis & Traceability 
+This report is grounded in the current Revision 20.2 project package, the current static UI, server/database code, and the 
+actual-render review screenshots bundled with the project. Revision 20.2 explicitly preserves the Revision 20.1 UI, 
+Program Stage Flow redesign, themes, and branding. The screen catalogue uses the retained actual desktop renders for 
+the unchanged workspaces and the current Revision 20.1 lifecycle render for programStageFlow. 
+ 
+Contents 
+• 01 Executive Summary & Business Objectives 
+• 02 Roles, Authentication & Navigation 
+• 03 Application UI Screen Catalogue 
+• 04 Program Lifecycle & Governance 
+• 05 Operational Data & Analytical Model 
+• 06 KPI Framework 
+• 07 Power BI Requirements & Dashboard Pages 
+  
+
+PAGE 3
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 3 
+01 
+Executive Summary & Business 
+Objectives 
+What the platform manages, why it exists, and where Power BI adds value.  
+ 
+ 
+Executive Summary 
+The Andalusia Academy Work Management System is an operational management platform that connects Academy 
+Programs, lifecycle stages, Position-owned work, tasks, team workload, instructors, schedules, finances, documents, 
+reports, approvals, and audit history. It is designed so operational work can be executed in the same environment in 
+which management reviews readiness and controls Program progression.  
+The system separates operational execution from management governance. Contributors complete the work owned 
+by their Position; the Academy Manager reviews readiness, blockers, evidence, and handoffs, and retains authority 
+to complete lifecycle stages and close Programs. Revision 20.2 adds server-side authentication and authorization for 
+Admin and User accounts. 
+Business Objectives 
+• Centralize Academy operational information and reduce duplicate entry across workflow and personal tasks. 
+• Provide end-to-end visibility from Program request through final closure. 
+• Make lifecycle requirements, blockers, ownership, readiness, and next actions explicit. 
+• Assign and monitor Position-owned tasks while keeping Program stage state distinct from personal task progress. 
+• Monitor team capacity, instructor readiness, delivery schedules, Program finance, documents, and management 
+approvals. 
+• Provide auditable management decisions and handoffs. 
+• Create a reliable operational source from which historical analytics and management reporting can be built. 
+Where Power BI Adds Value 
+The operational application is optimized for current work and decisions. Power BI should complement it with historical 
+trends, cross-Program comparison, stage aging, SLA analysis, task aging, capacity trends, Instructor utilization, 
+delivery performance, financial variance, drill-through, forecasting, and governed executive reporting. 
+
+PAGE 4
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 4 
+ 
+Figure 1 — Recommended operational-to-analytics architecture 
+  
+
+
+PAGE 5
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 5 
+02 
+Roles, Authentication & Navigation 
+How access is established and how management governance differs from contributor 
+execution. 
+ 
+ 
+ANDALUSIA ACADEMY  |  Power BI & Business Intelligence Handover 
+User Roles 
+Role Primary access Authority / restriction 
+Admin / Academy Manager Manager Dashboard; Programs; Team 
+Members; Administration; all management 
+workspaces 
+Can complete lifecycle stages 1-8, assign work to 
+others, access all-team workload and 
+administration. 
+User / Contributor My Tasks / task workspace; permitted 
+Program work; relevant schedule/documents; 
+profile 
+Completes Position-owned work but cannot 
+advance lifecycle stages, create Programs, 
+reassign others’ work, or change administrative 
+configuration. 
+ 
+Authentication & Session Security 
+• Two first-run accounts are created automatically: admin (Academy Manager) and user (Program Coordinator). 
+• Temporary passwords are generated on first server start and must be replaced at first sign-in. 
+• Authentication uses an HttpOnly, SameSite=Lax session cookie with a 12-hour rolling timeout by default. 
+• CSRF tokens protect authenticated state-changing API requests. 
+• Login throttling is applied after repeated failures; logout invalidates the server session. 
+• Manager-only API actions are enforced server-side; a contributor cannot advance Program lifecycle stages through the 
+API. 
+
+PAGE 6
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 6 
+ 
+Figure 2 — Revision 20.2 Sign In screen 
+
+
+PAGE 7
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 7 
+ 
+Figure 3 — Revision 20.2 mandatory first-sign-in password change 
+
+
+PAGE 8
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 8 
+Application Navigation 
+ 
+Figure 4 — Role-aware navigation map 
+  
+
+
+PAGE 9
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 9 
+03 
+Application UI Screen Catalogue 
+Every current navigable workspace, its operational purpose, data, actions, and Power BI 
+relevance. 
+ 
+ 
+ANDALUSIA ACADEMY  |  Power BI & Business Intelligence Handover 
+Screenshot note: Revision 20.2 preserves the Revision 20.1 UI. Revision 20.1 changed the Program Stage Flow 
+component while preserving the surrounding Executive UI. The unchanged workspace screenshots below are the actual 
+Revision 19.1 renders retained with the current package; Program Stage Flow and authentication are shown from the later 
+revisions. 
+  
+
+PAGE 10
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 10 
+3.1  Manager Dashboard 
+Primary Role: Academy Manager 
+Executive command center for portfolio performance, strategic risks, decisions, and quick navigation. 
+ 
+Figure 5 — Manager Dashboard - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Program Completion; Task Performance; Team Utilization; Delivery This Month; Budget Utilization; Financial 
+Health; Active/At Risk Programs; Overdue/Blocked Tasks; Team Members; Open Approvals. 
+Main actions Open Programs, Tasks, Team, Schedule, Finance, reports, and manager controls. 
+Power BI opportunity Executive Overview; target-vs-actual trend; risk concentration; portfolio forecasting; management 
+exceptions. 
+ 
+  
+
+
+PAGE 11
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 11 
+3.2  Tasks / My Tasks 
+Primary Role: Manager; contributor view is role-restricted 
+Manager view scans the whole team and task exceptions; contributor access is constrained to owned work. 
+ 
+Figure 6 — Tasks / My Tasks - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Total team tasks; completed; in progress; overdue; blocked; due this week; workload by member; status 
+distribution. 
+Main actions Search/filter by team member, project, status, priority, due date; open task; create task (manager). 
+Power BI opportunity Task performance, aging, SLA, backlog, overdue trend, workload and completion by 
+Program/Stage/Position. 
+ 
+  
+
+
+PAGE 12
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 12 
+3.3  Weekly Planner 
+Primary Role: Both 
+Weekly task planning surface with current-week navigation and operational filtering. 
+ 
+Figure 7 — Weekly Planner - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Filtered weekly task count; task cards by day; task progress/status. 
+Main actions Navigate week; filter project/status/priority; export weekly report. 
+Power BI opportunity Weekly workload trend, completion by weekday, planned-vs-completed work, capacity pattern. 
+ 
+  
+
+
+PAGE 13
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 13 
+3.4  Monthly Planner 
+Primary Role: Both 
+Month-based planning view for task distribution and calendar review. 
+ 
+Figure 8 — Monthly Planner - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Tasks/events by date and month. 
+Main actions Previous/current/next month; export monthly report. 
+Power BI opportunity Monthly seasonality, due-date concentration, backlog movement. 
+ 
+  
+
+
+PAGE 14
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 14 
+3.5  Quarterly Planner 
+Primary Role: Both 
+Quarter-level view of work volume and progress across three months. 
+ 
+Figure 9 — Quarterly Planner - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Quarter tasks; completed; actual hours; completion rate. 
+Main actions Navigate quarter; export quarterly report. 
+Power BI opportunity Quarterly productivity, capacity, hours, completion trend and quarter-over-quarter comparison. 
+ 
+  
+
+
+PAGE 15
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 15 
+3.6  Programs 
+Primary Role: Academy Manager; permitted Program users 
+Portfolio management screen for status, stage, health/readiness and progress. 
+ 
+Figure 10 — Programs - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Total Programs; active; planned; completed; on hold; average readiness; Program stage/progress. 
+Main actions Search; filter status/stage; create Program (manager); open Program Workspace. 
+Power BI opportunity Program portfolio, stage distribution, aging, health trend, on-time completion, owner and risk analysis. 
+ 
+  
+
+
+PAGE 16
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 16 
+3.7  Program Workspace 
+Primary Role: Both; management controls are Admin-only 
+Single-Program operational workspace combining lifecycle, tasks, requirements, documents, team, budget, blockers and activity. 
+ 
+Figure 11 — Program Workspace - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Overall readiness; current stage; stage tasks; Program progress; budget snapshot; blockers; requirements; 
+team. 
+Main actions Inspect stage; open tasks/documents/activity; complete Position-owned work; manager completes lifecycle 
+stage. 
+Power BI opportunity Program drill-through combining stage history, task performance, delivery, Instructor, finance, blockers and 
+decisions. 
+ 
+  
+
+
+PAGE 17
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 17 
+3.8  Instructors 
+Primary Role: Academy Manager 
+Instructor network directory for readiness, availability, expertise, load and Program linkage. 
+ 
+Figure 12 — Instructors - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Total instructors; assigned; available; ready; external; average Program load; readiness gaps. 
+Main actions Search/filter; add Instructor; import Excel; load test instructors; open profile. 
+Power BI opportunity Instructor utilization, specialty coverage, availability, regional coverage, Program load, readiness trend. 
+ 
+  
+
+
+PAGE 18
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 18 
+3.9  Instructor Profile 
+Primary Role: Academy Manager 
+Dedicated Instructor detail page across Programs, schedule, readiness and engagement history. 
+ 
+Figure 13 — Instructor Profile - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Linked Programs; sessions; engagement fees; feedback; readiness indicators. 
+Main actions Open Program; inspect schedules, performance, documents/contracts. 
+Power BI opportunity Instructor drill-through, session delivery, utilization, quality/readiness and Program contribution. 
+ 
+  
+
+
+PAGE 19
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 19 
+3.10  Operations 
+Primary Role: Position-based operational users; manager oversight 
+Parallel operational activities for instructor coordination, logistics, attendees and sponsorship work. 
+ 
+Figure 14 — Operations - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Activity count; completed; open follow-ups; average progress. 
+Main actions Open operational lane, record follow-up/visit, update progress and evidence according to Position rules. 
+Power BI opportunity Operational lane completion, follow-up aging, throughput, bottlenecks and responsibility analysis. 
+ 
+  
+
+
+PAGE 20
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 20 
+3.11  Finance 
+Primary Role: Finance roles; Academy Manager 
+Portfolio and Program financial performance, settlement status and closure evidence. 
+ 
+Figure 15 — Finance - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Total revenue; collections/sponsorship; total cost; net result; profit margin; open settlements; profitability by 
+Program. 
+Main actions Review Program finance records, settlement/closure status and evidence; open reports. 
+Power BI opportunity Revenue/cost trends, profitability, budget variance, settlement aging, collections, receivables, Program 
+financial health. 
+ 
+  
+
+
+PAGE 21
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 21 
+3.12  Schedule 
+Primary Role: Both 
+Delivery calendar for Academy sessions, instructor coverage and upcoming delivery. 
+ 
+Figure 16 — Schedule - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Sessions this week; scheduled; in progress; completed; cancelled; Instructor coverage. 
+Main actions Navigate week; switch calendar/agenda; filter planned/today; open Program/session. 
+Power BI opportunity Session delivery trend, Instructor/venue utilization, cancellation, schedule adherence, delivery hours. 
+ 
+  
+
+
+PAGE 22
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 22 
+3.13  Documents 
+Primary Role: Both subject to Program permissions 
+Program document register for traceable references and evidence. 
+ 
+Figure 17 — Documents - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Document metadata by Program, Stage and Type. 
+Main actions Search/filter; add document; open reference. 
+Power BI opportunity Documentation completeness, evidence coverage, missing-document compliance, aging. 
+ 
+  
+
+
+PAGE 23
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 23 
+3.14  Reports 
+Primary Role: Both within role scope 
+Operational report generation and export surface. 
+ 
+Figure 18 — Reports - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Weekly/monthly/quarterly/Program/management report fields and task details. 
+Main actions Select report type/period/Program/status/priority; export PDF/Excel. 
+Power BI opportunity Power BI can replace static analytical exports while keeping operational reports for workflow evidence. 
+ 
+  
+
+
+PAGE 24
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 24 
+3.15  History 
+Primary Role: Both within role scope 
+Completed/archived task history plus Program and system audit views. 
+ 
+Figure 19 — History - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Completed tasks; Program audit events; system audit events. 
+Main actions Search and filter historical records. 
+Power BI opportunity Event history, change analysis, stage transition history, completion trend, audit analytics. 
+ 
+  
+
+
+PAGE 25
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 25 
+3.16  Training 
+Primary Role: Both 
+Isolated Academy lifecycle training mode that does not alter live operational data. 
+ 
+Figure 20 — Training - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Eight-stage training flow and step status. 
+Main actions Walk through lifecycle; restart training. 
+Power BI opportunity Primarily enablement; training completion telemetry could be added later if required. 
+ 
+  
+
+
+PAGE 26
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 26 
+3.17  Team Members 
+Primary Role: Academy Manager only 
+All-team directory with workload, task performance and capacity. 
+ 
+Figure 21 — Team Members - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Total members; active; average utilization; overloaded; underloaded; on leave; 
+tasks/open/overdue/completion/workload per member. 
+Main actions Search/filter by workload/status; open member profile; create/assign task. 
+Power BI opportunity Team capacity, utilization, overload risk, completion trend, Program participation and workload balancing. 
+ 
+  
+
+
+PAGE 27
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 27 
+3.18  Team Member Profile 
+Primary Role: Academy Manager only 
+Drill-through employee workload and assigned task view. 
+ 
+Figure 22 — Team Member Profile - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Active tasks; completed; on-time delivery; average progress; open/overdue/blocked workload. 
+Main actions Filter assigned work by Program, Stage, Status, Priority, Due Date and Type; assign task. 
+Power BI opportunity Employee workload and performance drill-through, task aging, Program mix, capacity and completion trend. 
+ 
+  
+
+
+PAGE 28
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 28 
+3.19  Administration 
+Primary Role: Academy Manager only 
+Configuration workspace for Position rules, workflow rules, master data, employee registry and system information. 
+ 
+Figure 23 — Administration - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Configuration and governance metadata rather than operational KPIs. 
+Main actions Review/edit controlled rules and master data. 
+Power BI opportunity Governance/audit metadata; generally not a KPI source except configuration quality and access audit use 
+cases. 
+ 
+  
+
+
+PAGE 29
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 29 
+3.20  Profile 
+Primary Role: Both 
+Employee/account profile, Position information, default view and application theme preferences. 
+ 
+Figure 24 — Profile - actual desktop UI 
+Area Current application / BI interpretation 
+Key data & KPIs Identity, department, Position, contact and preference metadata. 
+Main actions Update profile fields permitted by the account; select theme/default view; manage profile image. 
+Power BI opportunity Employee dimension attributes and security mapping; preferences themselves are not core BI measures. 
+ 
+  
+
+
+PAGE 30
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 30 
+3.21  Program Lifecycle / programStageFlow 
+The current Program Stage Flow is a scoped lifecycle component introduced in Revision 20.1 and preserved in Revision 
+20.2. It separates the actual current stage from the stage selected for inspection, displays completed-stage count and 
+overall readiness, and switches to a vertical timeline on phone/tablet portrait layouts. 
+ 
+Figure 25 — Current desktop Program Stage Flow 
+Component behavior BI relevance 
+Eight stages with Completed, Current, Selected, Pending Approval, 
+Returned and Upcoming states; each stage carries progress and 
+accessible state labels. 
+Use the same eight-stage conformed dimension in Power BI. Do 
+not collapse the lifecycle to generic phases. 
+Desktop/laptop/tablet landscape uses horizontal stepper; <=820 px 
+uses vertical timeline. 
+BI reports should use the same stage order for stage distribution, 
+aging and bottleneck visuals. 
+Overall readiness summarizes current Program stage progress; stage 
+click inspects details without changing actual current stage. 
+Separate current stage, selected/reporting context, and historical 
+stage events in the analytical model. 
+ 
+  
+
+
+PAGE 31
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 31 
+3.22  Account Security 
+Account Security is available from the fixed sidebar after sign-in. It shows the authenticated username/access role and 
+allows the signed-in user to change their password. Position authority remains controlled by the authenticated account 
+rather than a browser-editable Profile Position. 
+ 
+Figure 26 — Password-change experience used on first sign-in; the in-app Account Security control uses the same password-
+update model 
+ 
+  
+
+
+PAGE 32
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 32 
+04 
+Program Lifecycle & Governance 
+The eight-stage operational model, handoff authority, blockers, and Commercial route 
+behavior. 
+ 
+ 
+ANDALUSIA ACADEMY  |  Power BI & Business Intelligence Handover 
+Eight-Stage Academy Lifecycle 
+ 
+Figure 27 — Eight implemented Academy lifecycle stages 
+Stage Governance summary 
+1. Request & Greenlight Contributors prepare a valid request; Academy Manager approves/returns Greenlight and 
+closes Stage 1. 
+2. Curriculum Curriculum is drafted, QA’d and locked; Academy Manager finalizes Stage 2. 
+3. Instructor Setup Instructor selection, engagement, contract and onboarding evidence are completed; Academy 
+Manager finalizes Stage 3. 
+4. Launch, Commercial, Operations & 
+Finance 
+Launch inputs, Commercial routes, Operations lanes and Finance controls run; Academy 
+Manager records required decisions and finalizes the Stage 4 handoff. 
+
+
+PAGE 33
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 33 
+Stage Governance summary 
+5. Readiness, Delivery & Assessment Readiness, session delivery, incidents, assessment and certification evidence are completed; 
+Academy Manager finalizes Stage 5. 
+6. Graduate Outcomes Eligible graduates/outcomes evidence or N/A basis is recorded; Academy Manager finalizes 
+the stage. 
+7. Reporting & Improvement Performance report, feedback and improvement actions are completed; Academy Manager 
+opens Final Closure. 
+8. Final Closure Academy Manager alone performs final Program closure. 
+ 
+Stage Completion UX & Audit Requirements 
+• Each stage must expose requirements, progress, missing items, blockers, ownership, readiness, completion action and 
+next-stage information. 
+• When completion is unavailable, exact blockers are shown rather than relying on a disabled button alone. 
+• On successful completion the status, lifecycle, audit trail and next-stage work update immediately, with duplicate actions 
+prevented. 
+• The Manager Control is visible only to the Academy Manager; contributors may complete their own deliverables but 
+cannot perform the final lifecycle handoff. 
+Commercial Stage - B2C / B2B / Mixed 
+Section 4B contains explicit Commercial Completion Readiness. B2C, B2B and Mixed routes validate their relevant 
+requirements and expose exact blockers. Valid completion activates the next operational work idempotently, so repeated 
+completion does not create duplicate assignments. 
+BI opportunity 
+Model Commercial Type as a conformed dimension and analyze route-level cycle time, readiness, revenue, conversion and 
+completion performance. 
+ 
+  
+
+PAGE 34
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 34 
+05 
+Operational Data & Analytical Model 
+What the application stores today and how the BI team should reshape it for analysis.  
+ 
+ 
+ANDALUSIA ACADEMY  |  Power BI & Business Intelligence Handover 
+Current Operational Persistence 
+The Python server persists operational state in SQLite while storing flexible JSON payloads in key entity tables. The 
+package also supports JSON store compatibility and Excel import/export. This is appropriate for the prototype but should 
+not be copied directly into the Power BI semantic model. 
+Current table / source Purpose / indexed fields 
+profile Single local operational profile record in legacy store compatibility. 
+tasks Task ID, status, due date, Program ID, assignment ID + JSON data payload. 
+programs Program ID, status, start/end dates + JSON data payload. 
+assignments Assignment ID, Program ID, owner Position, status, due date, kind + JSON data. 
+notifications Target Position, read state, created time + JSON data. 
+audit Program ID, timestamp + JSON event payload. 
+documents Program ID, Stage, Document Type, created time + JSON data. 
+accounts Username, role, display name, Position, password hash/salt, profile JSON, password-change 
+flag. 
+config Key/value JSON configuration. 
+Excel / CSV Task and Instructor import/export plus report/export workflows. 
+ 
+Core Business Entities 
+Entity Current / visible attributes relevant to BI 
+Program ID, name, status, eight lifecycle stages, stage progress, owner/Position, dates, route/region, 
+budget, finance, requirements, blockers, audit. 
+Program Stage Program, stage name/order, status, progress, readiness/checks, stage ownership, completion/audit 
+timestamps where captured. 
+Task / Assignment Title/action, Program, Stage, owner Position, status, priority, due date, progress, kind/type, 
+completion. 
+
+PAGE 35
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 35 
+Entity Current / visible attributes relevant to BI 
+Employee / Team Member Name, Position, department, email/phone where configured, workload derived from owned tasks, 
+completion/overdue metrics. 
+Instructor Name, email, phone, specialty, level, source, work schedule, availability, region, notes, 
+Program/session links. 
+Session Program, date/time, Instructor, region/venue where recorded, session/status details. 
+Finance Program revenue, actual cost, sponsorship/collections, budget, settlement and closure 
+status/evidence. 
+Document Program, Stage, Document Type, created date, metadata/reference. 
+Audit Event Program/system action, timestamp, user/Position context and event payload. 
+Account Username, role, authoritative Position, account-specific profile and access state. 
+ 
+ 
+ 
+
+PAGE 36
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 36 
+07 
+Power BI Requirements & Dashboard 
+Pages 
+Recommended analytical experiences that extend the operational application.  
+ 
+ 
+ANDALUSIA ACADEMY  |  Power BI & Business Intelligence Handover 
+Recommended Power BI Pages 
+Power BI page Purpose 
+Executive Overview Active Programs, completion, risk, task performance, team utilization, delivery, budget and 
+financial health with trend/variance. 
+Program Portfolio Program status/stage/owner/health/progress, stage distribution, aging and completion 
+forecast. 
+Lifecycle Performance Programs by stage, average stage duration, bottlenecks, readiness, SLA and rework. 
+Task Performance Open/completed/overdue/blocked, aging, completion time, performance by 
+Program/Stage/Position. 
+Team Capacity Workload, utilization, capacity, overdue tasks, completion rate, Program assignments. 
+Instructor Analytics Availability, specialty, Program assignment, sessions, utilization, readiness and regional 
+coverage. 
+Delivery & Schedule Scheduled vs delivered sessions, hours, Instructor/venue utilization, cancellations and 
+conflicts. 
+Finance Revenue, cost, budget, variance, margin, collections, receivables and Program profitability. 
+Program Detail Drill-through: lifecycle, stage history, tasks, blockers, Instructor, schedule, finance and audit. 
+Employee Detail Drill-through: workload, Programs, tasks, on-time delivery, overdue and completion trend. 
+Instructor Detail Drill-through: availability, Programs, sessions, utilization and readiness. 
+ 
+
+PAGE 37
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 37 
+ 
+Figure 29 — Illustrative Andalusia-themed Power BI Executive Overview 
+Management Questions the BI Layer Must Answer 
+• How many Programs are active, at risk, delayed, or ready for management handoff? 
+• Where are Programs stuck in the lifecycle, and which stages take the longest? 
+• What blockers recur most often, and which Positions/Programs are affected? 
+• What percentage of tasks are completed on time, and how is overdue work trending? 
+• Which employees are overloaded or have available capacity? 
+• Which Instructors are available, highly utilized, or missing readiness requirements? 
+• Are scheduled sessions being delivered according to plan? 
+• Which Programs are exceeding budget or underperforming financially? 
+• What are collection, settlement and receivable positions over time? 
+• What are the major operational risks this month and how are they changing? 
+Andalusia Academy Power BI Theme 
+Role Color Use 
+Deep Navy #17364F / #10283B Report titles, structural anchors, navigation and fact-table emphasis. 
+Terracotta #8F4F3B Principal accent, selections, key headings and important KPI emphasis. 
+Terracotta Light #F3E4DF Selected/background accent and callouts. 
+Warm Off-White #FFF9F6 Report page background and screenshot/card surfaces. 
+Sand #E8D7C9 Borders, dividers, alternate rows and neutral structure. 
+Green Semantic Completed / healthy / positive. 
+Amber Semantic Warning / attention / at risk. 
+Red Semantic Blocked / critical / overdue / negative. 
+Muted Blue Semantic Informational / in progress / planned. 
+
+
+PAGE 38
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 38 
+ 
+ 
+Figure 30 — Seven operational application themes; the BI report should use one consistent master theme 
+  
+
+
+PAGE 39
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 39 
+A 
+Appendix - Mobile & Responsive UI 
+References 
+Representative responsive renders retained from the current Executive UI lineage.  
+ 
+ 
+ANDALUSIA ACADEMY  |  Power BI & Business Intelligence Handover 
+ 
+Figure 31 — Core mobile workspace review - Dashboard, Programs, Workspace, Tasks, Team and Team Member Profile 
+
+
+PAGE 40
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 40 
+ 
+Figure 32 — Program Stage Flow vertical timeline on mobile 
+The application is responsive across tested widths including 390, 430, 768, 1024, 1366, 1440 and 1920 px. Dense 
+calendars/tables may scroll internally, but root-page horizontal overflow is intentionally avoided. Touch controls are 
+designed to remain usable on phone/tablet layouts. 
+  
+
+
+PAGE 41
+ 
+ 
+Power BI & Business Intelligence Handover 
+Andalusia Academy  |  Version 1.0  |  Confidential - Internal Use  |  Page 41 
+B 
+Appendix - UI-to-BI Mapping 
+Traceability from every operational screen to the recommended analytical layer.  
+ 
+Application Screen Current KPI / Data Power BI Dataset Recommended BI Page Priority 
+Sign In / Account Security Role/account metadata Security mapping / RLS Security governance Governance 
+Manager Dashboard Portfolio, tasks, team, delivery, 
+budget, finance 
+Programs + Stages + Tasks + 
+Team + Sessions + Finance 
+Executive Overview Critical 
+Tasks / My Tasks Task status, priority, due, owner, 
+progress 
+FactTasks Task Performance Critical 
+Weekly Planner Weekly task schedule FactTasks + DimDate Task Performance / Capacity Medium 
+Monthly Planner Monthly task calendar FactTasks + DimDate Task Trend Medium 
+Quarterly Planner Quarter tasks, hours, completion FactTasks + DimDate Quarterly Performance Medium 
+Programs Status, stage, progress, readiness FactPrograms + 
+FactProgramStages 
+Program Portfolio Critical 
+Program Workspace Stage, tasks, blockers, team, budget, 
+requirements 
+Multiple facts + Program/Stage 
+dimensions 
+Program Detail Critical 
+Program Stage Flow Stage order, status, progress, 
+readiness 
+FactProgramStages Lifecycle Performance Critical 
+Instructors Availability, specialty, readiness, load Instructor + assignments + 
+sessions 
+Instructor Analytics High 
+Instructor Profile Programs, sessions, engagement, 
+readiness 
+Instructor + sessions + finance 
+linkage 
+Instructor Detail High 
+Operations Operational lanes, progress, follow-
+ups 
+Operational activity fact 
+(future/derived) 
+Operations Performance High 
+Finance Revenue, collections, cost, net, 
+settlements 
+FactFinance Finance Critical 
+Schedule Sessions, Instructor, status, dates FactSessions Delivery & Schedule High 
+Documents Program/Stage document metadata Document metadata / 
+compliance fact 
+Program Detail / Compliance Medium 
+Reports Operational report selections and 
+exports 
+Consumes multiple facts Power BI report suite High 
+History Completed tasks and audit FactTasks + Audit/Event fact Lifecycle / Audit High 
+Training Lifecycle learning state Optional training telemetry Training Adoption (optional) Low 
+Team Members Utilization, workload, task counts FactTasks + DimEmployee Team Capacity High 
+Team Member Profile Assigned work and performance FactTasks + DimEmployee Employee Detail High 
+Administration Rules and master data Dimensions / governance 
+metadata 
+Data Quality / Governance Medium 
+Profile Employee/Position/Department DimEmployee / security mapping RLS / Employee Detail High 
+ 

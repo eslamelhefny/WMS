@@ -1,0 +1,18 @@
+Disposable test server: http://127.0.0.1:8876
+[13/Sep/2026 12:50:38] "GET / HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /networking.css HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /emblem.svg HTTP/1.1" 200 -[13/Sep/2026 12:50:38] "GET /logo.svg HTTP/1.1" 200 -
+
+[13/Sep/2026 12:50:38] "GET /networking.js HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /api/store HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /favicon.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:38] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:39] "POST /api/store HTTP/1.1" 200 -
+[13/Sep/2026 12:50:41] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:41] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:43] "GET /icons/sprite.svg HTTP/1.1" 200 -
+[13/Sep/2026 12:50:44] "GET /icons/sprite.svg HTTP/1.1" 200 -
